@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://kisky3.github.io/2020/04/21/AboutAWSAmplify/</loc>
+    
+    <lastmod>2020-09-30T15:49:59.771Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://kisky3.github.io/2020/10/01/GitPushError/</loc>
+    
+    <lastmod>2020-09-30T15:47:21.704Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://kisky3.github.io/2020/06/01/HexoError/</loc>
     
     <lastmod>2020-09-30T15:40:31.547Z</lastmod>
@@ -30,14 +44,14 @@
   </url>
   
   <url>
-    <loc>https://kisky3.github.io/all-categories/index.html</loc>
+    <loc>https://kisky3.github.io/all-tags/index.html</loc>
     
     <lastmod>2020-09-30T14:28:59.357Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://kisky3.github.io/all-tags/index.html</loc>
+    <loc>https://kisky3.github.io/all-categories/index.html</loc>
     
     <lastmod>2020-09-30T14:28:59.357Z</lastmod>
     
@@ -621,13 +635,6 @@
     <loc>https://kisky3.github.io/2019/11/02/AboutCMS/</loc>
     
     <lastmod>2020-09-06T14:58:22.564Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://kisky3.github.io/2020/04/21/AboutAWSAmplify/</loc>
-    
-    <lastmod>2020-09-06T14:58:22.559Z</lastmod>
     
   </url>
   
