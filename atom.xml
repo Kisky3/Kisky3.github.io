@@ -41,9 +41,9 @@
     <link href="https://kisky3.github.io/2020/06/01/HexoError/"/>
     <id>https://kisky3.github.io/2020/06/01/HexoError/</id>
     <published>2020-05-31T15:34:01.000Z</published>
-    <updated>2020-09-30T15:58:53.979Z</updated>
+    <updated>2020-10-06T10:36:57.697Z</updated>
     
-    <content type="html"><![CDATA[<p>【Hexo异常】fatal: in unpopulated submodule ‘.deploy_git’</p><a id="more"></a><p>今天又重新搞了下hexo，好久不动它居然报了错。<br>这种情况可以先安装下相关的依赖：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git –save</span><br></pre></td></tr></table></figure><p>实在不行，就把它删掉，然后重新生成和部署。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">rm -rf .deploy_git</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><h2 id="OK-DONE"><a href="#OK-DONE" class="headerlink" title="OK DONE!"></a>OK DONE!</h2>]]></content>
+    <content type="html"><![CDATA[<p>【Hexo异常】fatal: in unpopulated submodule ‘.deploy_git’</p><a id="more"></a><p>今天又重新弄了下hexo，好久不动它居然报了错。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fatal: in unpopulated submodule &apos;.deploy_git&apos;</span><br></pre></td></tr></table></figure><p>这种情况可以先安装下相关的依赖：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git –save</span><br></pre></td></tr></table></figure><p>实在不行，就把它删掉，然后重新生成和部署。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">rm -rf .deploy_git</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><h2 id="OK-DONE"><a href="#OK-DONE" class="headerlink" title="OK DONE!"></a>OK DONE!</h2>]]></content>
     
     <summary type="html">
     
