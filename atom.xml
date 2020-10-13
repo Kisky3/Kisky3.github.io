@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2020-10-10T14:36:23.222Z</updated>
+  <updated>2020-10-13T15:00:33.940Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://kisky3.github.io/2020/06/10/Velocity/"/>
     <id>https://kisky3.github.io/2020/06/10/Velocity/</id>
     <published>2020-06-10T14:28:46.000Z</published>
-    <updated>2020-10-10T14:36:23.222Z</updated>
+    <updated>2020-10-13T15:00:33.940Z</updated>
     
-    <content type="html"><![CDATA[<p>关于Velocity的基础语法</p><a id="more"></a><p>Velocity是一个基于java的模板引擎（template engine），它允许任何人仅仅简单的使用模板语言（template language）来引用由java代码定义的对象。作为一个比较完善的模板引擎，Velocity的功能是比较强大的，但强大的同时也增加了应用复杂 性。这里简单Velocity脚本的基本语法：</p><p>1、”#”用来标识Velocity的脚本语句，包括#set、#if 、#else、#end、#foreach、#end、#iinclude、#parse、#macro等；<br> 如:<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#if($info.imgs)</span><br><span class="line"></span><br><span class="line"> #else</span><br><span class="line"></span><br><span class="line"> #end</span><br></pre></td></tr></table></figure></p><hr>]]></content>
+    <content type="html"><![CDATA[<p>关于Velocity的基础语法</p><a id="more"></a><p>Velocity是一个基于java的模板引擎（template engine），它允许任何人仅仅简单的使用模板语言（template language）来引用由java代码定义的对象。作为一个比较完善的模板引擎，Velocity的功能是比较强大的，但强大的同时也增加了应用复杂 性。这里简单Velocity脚本的基本语法：</p><p>1、”#”用来标识Velocity的脚本语句，包括#set、#if 、#else、#end、#foreach、#end、#iinclude、#parse、#macro等；<br> 如:<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#if($info.imgs)</span><br><span class="line"></span><br><span class="line"> #else</span><br><span class="line"></span><br><span class="line"> #end</span><br></pre></td></tr></table></figure></p><hr><p>具体用哒</p>]]></content>
     
     <summary type="html">
     
