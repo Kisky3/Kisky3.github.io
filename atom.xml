@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2020-10-13T15:00:33.940Z</updated>
+  <updated>2020-10-16T09:42:51.971Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tip</title>
+    <link href="https://kisky3.github.io/2020/10/16/Tip/"/>
+    <id>https://kisky3.github.io/2020/10/16/Tip/</id>
+    <published>2020-10-16T09:42:51.000Z</published>
+    <updated>2020-10-16T09:42:51.971Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Basic Velocity</title>
@@ -495,30 +509,6 @@
       <category term="aws" scheme="https://kisky3.github.io/tags/aws/"/>
     
       <category term="restAPI" scheme="https://kisky3.github.io/tags/restAPI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Install AWS CLI On macOS</title>
-    <link href="https://kisky3.github.io/2020/02/08/InstallAwsCLIOnMacOS/"/>
-    <id>https://kisky3.github.io/2020/02/08/InstallAwsCLIOnMacOS/</id>
-    <published>2020-02-08T11:54:37.000Z</published>
-    <updated>2020-09-30T16:02:14.997Z</updated>
-    
-    <content type="html"><![CDATA[<p>在 macOS 上安装 AWS CLI 版本 1</p><a id="more"></a><p>1.先决条件<br>Python 2 版本 2.7+ 或 Python 3 版本 3.4+</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ python --version</span><br></pre></td></tr></table></figure><hr><p>2.使用捆绑安装程序安装 AWS CLI 版本 1<br>如果没有 unzip，请使用您喜欢的程序包管理器或等效工具进行安装。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">curl &quot;https://s3.amazonaws.com/aws-cli/awscli-bundle.zip&quot; -o &quot;awscli-bundle.zip&quot;</span><br><span class="line">unzip awscli-bundle.zip</span><br><span class="line">sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws</span><br></pre></td></tr></table></figure><hr><p>3.运行安装程序。该命令将 AWS CLI 安装到 /usr/local/aws，<br>并在 /usr/local/bin 目录中创建符号链接 aws。使用 -b 选项创建符号链接将免除在用户的 $PATH 变量中指定安装目录的需要。这应该能让所有用户在任何目录下通过键入 aws 来调用 AWS CLI。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws</span><br></pre></td></tr></table></figure><hr><p>4.查看是否安装成功</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">aws --version</span><br></pre></td></tr></table></figure><hr><p>参考<br><a href="https://docs.aws.amazon.com/zh_cn/cli/latest/userguide/install-macos.html#awscli-install-osx-pip" target="_blank" rel="noopener">AWS官方文档</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;在 macOS 上安装 AWS CLI 版本 1&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Back-end Knowledge" scheme="https://kisky3.github.io/categories/Back-end-Knowledge/"/>
-    
-    
-      <category term="awsCLI" scheme="https://kisky3.github.io/tags/awsCLI/"/>
-    
-      <category term="install" scheme="https://kisky3.github.io/tags/install/"/>
     
   </entry>
   
