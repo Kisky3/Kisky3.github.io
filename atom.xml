@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2020-10-16T09:46:41.471Z</updated>
+  <updated>2020-10-16T09:50:55.296Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -17,16 +17,26 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>TIP</title>
-    <link href="https://kisky3.github.io/2020/10/16/TIP/"/>
-    <id>https://kisky3.github.io/2020/10/16/TIP/</id>
-    <published>2020-10-16T09:46:41.000Z</published>
-    <updated>2020-10-16T09:46:41.471Z</updated>
+    <title>JS/ES TIP</title>
+    <link href="https://kisky3.github.io/2020/06/16/TIP/"/>
+    <id>https://kisky3.github.io/2020/06/16/TIP/</id>
+    <published>2020-06-16T09:46:41.000Z</published>
+    <updated>2020-10-16T09:50:55.296Z</updated>
+    
+    <content type="html"><![CDATA[<p>About common js/es tips. Continuously update here.</p><a id="more"></a><div class="alert success no-icon"><h4 id="1-dddddddd"><a href="#1-dddddddd" class="headerlink" title="1.dddddddd"></a>1.dddddddd</h4></div>]]></content>
     
     <summary type="html">
     
+      &lt;p&gt;About common js/es tips. Continuously update here.&lt;/p&gt;
+    
     </summary>
     
+      <category term="Front-end Knowledge" scheme="https://kisky3.github.io/categories/Front-end-Knowledge/"/>
+    
+    
+      <category term="Js" scheme="https://kisky3.github.io/tags/Js/"/>
+    
+      <category term="ES" scheme="https://kisky3.github.io/tags/ES/"/>
     
   </entry>
   
