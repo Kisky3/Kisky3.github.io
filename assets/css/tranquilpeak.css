@@ -1750,8 +1750,7 @@ a.fancybox {
   display: block;
   max-width: 850px;
   margin: 0 auto;
-  padding: 20px 40px;
-  background: rgba(255, 255, 255, 0.9); }
+  padding: 20px 40px;}
 
 @media only screen and (min-width: 1024px) {
   .markdown h1 {
