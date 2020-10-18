@@ -17,7 +17,7 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","https://www.facebook.com/xiang.yu.39794","/categories/About-Me","kisky3@126.com"],"image":"me.png"},"articleBody":"关于Velocity的基础语法\n\nVelocity是一个基于java的模板引擎（template engine），它允许任何人仅仅简单的使用模板语言（template language）来引用由java代码定义的对象。作为一个比较完善的模板引擎，Velocity的功能是比较强大的，但强大的同时也增加了应用复杂 性。这里简单Velocity脚本的基本语法：\n1、”#”用来标识Velocity的脚本语句，包括#set、#if 、#else、#end、#foreach、#end、#iinclude、#parse、#macro等； 如: 12345#if($info.imgs) #else #end\n\n具体用哒\n","dateCreated":"2020-06-10T23:28:46+09:00","dateModified":"2020-10-14T00:00:33+09:00","datePublished":"2020-06-10T23:28:46+09:00","description":"关于Velocity的基础语法","headline":"Basic Velocity","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"https://kisky3.github.io/2020/06/10/Velocity/"},"publisher":{"@type":"Organization","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","https://www.facebook.com/xiang.yu.39794","/categories/About-Me","kisky3@126.com"],"image":"me.png","logo":{"@type":"ImageObject","url":"me.png"}},"url":"https://kisky3.github.io/2020/06/10/Velocity/","keywords":"Velocity"}</script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","https://www.facebook.com/xiang.yu.39794","/categories/About-Me","kisky3@126.com"],"image":"me.png"},"articleBody":"关于Velocity的基础语法\n\nVelocity是一个基于java的模板引擎（template engine），它允许任何人仅仅简单的使用模板语言（template language）来引用由java代码定义的对象。作为一个比较完善的模板引擎，Velocity的功能是比较强大的，但强大的同时也增加了应用复杂 性。这里简单Velocity脚本的基本语法：\n1、参数的设置可以自定义参数。参数开始于$\n1234写法\t     当值为空值当时候\t 使用方法$name\t      显示参数名\t    普通$&#123;name&#125;\t  显示参数名\t    在英文语义暧昧的时候$!name\t      不显示\t       当参数为空值的时候不显示\n\n参数所能使用的文字：参数只能使用下面的文字，\n1234・a-z A-Z・0-9・-・_\n\n","dateCreated":"2020-06-10T23:28:46+09:00","dateModified":"2020-10-18T18:20:19+09:00","datePublished":"2020-06-10T23:28:46+09:00","description":"关于Velocity的基础语法","headline":"Basic Velocity","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"https://kisky3.github.io/2020/06/10/Velocity/"},"publisher":{"@type":"Organization","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","https://www.facebook.com/xiang.yu.39794","/categories/About-Me","kisky3@126.com"],"image":"me.png","logo":{"@type":"ImageObject","url":"me.png"}},"url":"https://kisky3.github.io/2020/06/10/Velocity/","keywords":"Velocity"}</script>
     <meta name="description" content="关于Velocity的基础语法">
 <meta name="keywords" content="Velocity">
 <meta property="og:type" content="blog">
@@ -26,7 +26,7 @@
 <meta property="og:site_name" content="Xiang Yu&#39;s Blog">
 <meta property="og:description" content="关于Velocity的基础语法">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2020-10-13T15:00:33.940Z">
+<meta property="og:updated_time" content="2020-10-18T09:20:19.308Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Basic Velocity">
 <meta name="twitter:description" content="关于Velocity的基础语法">
@@ -277,9 +277,12 @@
             <p>关于Velocity的基础语法</p>
 <a id="more"></a>
 <p>Velocity是一个基于java的模板引擎（template engine），它允许任何人仅仅简单的使用模板语言（template language）来引用由java代码定义的对象。作为一个比较完善的模板引擎，Velocity的功能是比较强大的，但强大的同时也增加了应用复杂 性。这里简单Velocity脚本的基本语法：</p>
-<p>1、”#”用来标识Velocity的脚本语句，包括#set、#if 、#else、#end、#foreach、#end、#iinclude、#parse、#macro等；<br> 如:<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#if($info.imgs)</span><br><span class="line"></span><br><span class="line"> #else</span><br><span class="line"></span><br><span class="line"> #end</span><br></pre></td></tr></table></figure></p>
-<hr>
-<p>具体用哒</p>
+<p>1、参数的设置<br>可以自定义参数。<br>参数开始于$</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">写法	     当值为空值当时候	 使用方法</span><br><span class="line">$name	      显示参数名	    普通</span><br><span class="line">$&#123;name&#125;	  显示参数名	    在英文语义暧昧的时候</span><br><span class="line">$!name	      不显示	       当参数为空值的时候不显示</span><br></pre></td></tr></table></figure>
+
+<p>参数所能使用的文字：<br>参数只能使用下面的文字，</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">・a-z A-Z</span><br><span class="line">・0-9</span><br><span class="line">・-</span><br><span class="line">・_</span><br></pre></td></tr></table></figure>
+
 
             
 
