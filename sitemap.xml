@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://kisky3.github.io/2019/06/23/FirstBlog/</loc>
+    
+    <lastmod>2020-11-01T08:44:10.568Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://kisky3.github.io/2020/06/23/VueCommons/</loc>
     
     <lastmod>2020-11-01T08:36:53.433Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://kisky3.github.io/2020/04/21/AboutAWSAmplify/</loc>
     
     <lastmod>2020-11-01T08:36:29.375Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://kisky3.github.io/2019/06/23/FirstBlog/</loc>
-    
-    <lastmod>2020-11-01T08:35:27.291Z</lastmod>
     
   </url>
   
