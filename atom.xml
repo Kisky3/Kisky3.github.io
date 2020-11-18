@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2020-11-14T14:50:46.388Z</updated>
+  <updated>2020-11-18T14:59:36.644Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -17,16 +17,24 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>VueAlert</title>
-    <link href="https://kisky3.github.io/2020/11/14/VueAlert/"/>
-    <id>https://kisky3.github.io/2020/11/14/VueAlert/</id>
-    <published>2020-11-14T14:50:46.000Z</published>
-    <updated>2020-11-14T14:50:46.388Z</updated>
+    <title>Vue Alert and Confirm Component</title>
+    <link href="https://kisky3.github.io/2020/08/14/VueAlert/"/>
+    <id>https://kisky3.github.io/2020/08/14/VueAlert/</id>
+    <published>2020-08-14T14:50:46.000Z</published>
+    <updated>2020-11-18T14:59:36.644Z</updated>
+    
+    <content type="html"><![CDATA[<p>Vue独自的Alert和Confirm的组件</p><a id="more"></a><p>经常在开发时会遇到要求自定义确认弹窗和警告。<br>一般可以引用库，但是也可以像下面一样自己封装一个组件来代替浏览器自带的弹窗。</p>]]></content>
     
     <summary type="html">
     
+      &lt;p&gt;Vue独自的Alert和Confirm的组件&lt;/p&gt;
+    
     </summary>
     
+      <category term="Front-end Knowledge" scheme="https://kisky3.github.io/categories/Front-end-Knowledge/"/>
+    
+    
+      <category term="Vuex" scheme="https://kisky3.github.io/tags/Vuex/"/>
     
   </entry>
   
