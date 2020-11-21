@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2020-11-21T10:21:11.519Z</updated>
+  <updated>2020-11-21T10:33:55.170Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -17,16 +17,26 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>VueRouterAlert</title>
-    <link href="https://kisky3.github.io/2020/11/21/VueRouterAlert/"/>
-    <id>https://kisky3.github.io/2020/11/21/VueRouterAlert/</id>
-    <published>2020-11-21T10:21:11.000Z</published>
-    <updated>2020-11-21T10:21:11.519Z</updated>
+    <title>Vue Route Redirect on Refresh</title>
+    <link href="https://kisky3.github.io/2020/08/03/VueRouterAlert/"/>
+    <id>https://kisky3.github.io/2020/08/03/VueRouterAlert/</id>
+    <published>2020-08-03T14:50:46.000Z</published>
+    <updated>2020-11-21T10:33:55.170Z</updated>
+    
+    <content type="html"><![CDATA[<p>Vue Router的页面刷新处理</p><a id="more"></a>]]></content>
     
     <summary type="html">
     
+      &lt;p&gt;Vue Router的页面刷新处理&lt;/p&gt;
+    
     </summary>
     
+      <category term="Front-end Knowledge" scheme="https://kisky3.github.io/categories/Front-end-Knowledge/"/>
+    
+    
+      <category term="Router" scheme="https://kisky3.github.io/tags/Router/"/>
+    
+      <category term="Vue" scheme="https://kisky3.github.io/tags/Vue/"/>
     
   </entry>
   
