@@ -17,7 +17,7 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png"},"articleBody":"Vue Router的页面刷新处理\n\n上一篇文章里我们写了如何利用Vue+Vuetify打造自定义的消息确认组件Vue+Vuetify打造独自的消息确认组件\n今天我们来利用打造好的组件来写一个常见的需求。比如用户在输入数据时,刷新页面或者进行了页面跳转,为了防止数据丢失应该跳出弹窗提示问用户是否保存数据。\n需求如下:1.从页面A跳转到页面B的时候进行页面B的自动刷新，以便获取最新的数据。(包括浏览器上的返回和代码里的返回)\n2.从页面A跳转到页面B的时候,跳出自定义的弹窗，提示是否跳转页面。\n3.在特定的编辑页面进行手动刷新(在浏览器上按刷新按钮)的时候,跳出系统自带弹窗提示是否刷新。\n","dateCreated":"2020-08-03T23:50:46+09:00","dateModified":"2020-11-21T19:45:33+09:00","datePublished":"2020-08-03T23:50:46+09:00","description":"Vue Router的页面刷新处理","headline":"Vue Route Redirect on Refresh","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"https://kisky3.github.io/2020/08/03/VueRouterAlert/"},"publisher":{"@type":"Organization","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png","logo":{"@type":"ImageObject","url":"me.png"}},"url":"https://kisky3.github.io/2020/08/03/VueRouterAlert/","keywords":"Router, Vue"}</script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png"},"articleBody":"Vue Router的页面刷新处理\n\n上一篇文章里我们写了如何利用Vue+Vuetify打造自定义的消息确认组件Vue+Vuetify打造独自的消息确认组件\n今天我们来利用打造好的组件来写一个常见的需求。比如用户在输入数据时,刷新页面或者进行了页面跳转,为了防止数据丢失应该跳出弹窗提示问用户是否保存数据。\n需求如下:1.从页面A跳转到页面B的时候进行页面B的自动刷新\b\b,\b,以便获取最新的数据。(包括浏览器上的返回和代码里的返回)\n2.从页面A跳转到页面B的时候,跳出自定义的弹窗\b\b,提示是否跳转页面。\n3.在特定的编辑页面进行手动刷新(在浏览器上按刷新按钮)的时候,跳出系统自带弹窗提示是否刷新。\n\n需求1\n1.从页面A跳转到页面B的时候进行页面B的自动刷新\b\b,以便获取最新的数据。(包括浏览器上的返回和代码里的返回)\n\n这个可以通过App.vue里对router的watch和页面跳转时动态路由匹配的判断来进行刷新。刷新可以用this.$router.go(0); (当然也有别的写法)\n※ 提醒一下\b,当使用路由参数时\b,例如从foo导航到bar,原来的组件实例会被复用。因为两个路由都渲染同个组件\b,比起销毁再创建\b,复用则显得更加高效。不过\b,这也意味着组件的生命周期钩子不会再被调用。\nApp.vue\n12345678watch: &#123;   $route(to, from) &#123;     if (from.name === \"foo\" &amp;&amp; to.name === \"bar\") &#123;       // 在这里刷新       this.$router.go(0);     &#125;   &#125;, &#125;,","dateCreated":"2020-08-03T23:50:46+09:00","dateModified":"2020-11-21T19:54:24+09:00","datePublished":"2020-08-03T23:50:46+09:00","description":"Vue Router的页面刷新处理","headline":"Vue Route Redirect on Refresh","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"https://kisky3.github.io/2020/08/03/VueRouterAlert/"},"publisher":{"@type":"Organization","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png","logo":{"@type":"ImageObject","url":"me.png"}},"url":"https://kisky3.github.io/2020/08/03/VueRouterAlert/","keywords":"Router, Vue"}</script>
     <meta name="description" content="Vue Router的页面刷新处理">
 <meta name="keywords" content="Router,Vue">
 <meta property="og:type" content="blog">
@@ -26,7 +26,7 @@
 <meta property="og:site_name" content="Xiang Yu&#39;s Blog">
 <meta property="og:description" content="Vue Router的页面刷新处理">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2020-11-21T10:45:33.032Z">
+<meta property="og:updated_time" content="2020-11-21T10:54:24.225Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Vue Route Redirect on Refresh">
 <meta name="twitter:description" content="Vue Router的页面刷新处理">
@@ -267,10 +267,17 @@
 <a id="more"></a>
 <p>上一篇文章里我们写了如何利用Vue+Vuetify打造自定义的消息确认组件<br><a href="'https://kisky3.github.io/2020/07/14/VueAlert/'">Vue+Vuetify打造独自的消息确认组件</a></p>
 <p>今天我们来利用打造好的组件来写一个常见的需求。<br>比如用户在输入数据时,刷新页面或者进行了页面跳转,为了防止数据丢失应该跳出弹窗提示问用户是否保存数据。</p>
-<p>需求如下:<br>1.从页面A跳转到页面B的时候进行页面B的自动刷新，以便获取最新的数据。<br>(包括浏览器上的返回和代码里<a>的返回)</a></p>
-<p>2.从页面A跳转到页面B的时候,跳出自定义的弹窗，提示是否跳转页面。</p>
+<p>需求如下:<br>1.从页面A跳转到页面B的时候进行页面B的自动刷新,,以便获取最新的数据。<br>(包括浏览器上的返回和代码里<a>的返回)</a></p>
+<p>2.从页面A跳转到页面B的时候,跳出自定义的弹窗,提示是否跳转页面。</p>
 <p>3.在特定的编辑页面进行手动刷新(在浏览器上按刷新按钮)的时候,跳出系统自带弹窗提示是否刷新。</p>
-
+<hr>
+<h3 id="需求1"><a href="#需求1" class="headerlink" title="需求1"></a>需求1</h3><blockquote>
+<p>1.从页面A跳转到页面B的时候进行页面B的自动刷新,以便获取最新的数据。<br>(包括浏览器上的返回和代码里<a>的返回)</a></p>
+</blockquote>
+<p>这个可以通过App.vue里对router的watch和页面跳转时动态路由匹配的判断来进行刷新。<br>刷新可以用<code>this.$router.go(0);</code> (当然也有别的写法)</p>
+<p>※ 提醒一下,当使用路由参数时,例如从<code>foo</code>导航到<code>bar</code>,原来的组件实例会被复用。因为两个路由都渲染同个组件,比起销毁再创建,复用则显得更加高效。不过,这也意味着组件的生命周期钩子不会再被调用。</p>
+<p>App.vue</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">watch: &#123;</span><br><span class="line">   $route(to, <span class="keyword">from</span>) &#123;</span><br><span class="line">     <span class="keyword">if</span> (<span class="keyword">from</span>.name === <span class="string">"foo"</span> &amp;&amp; to.name === <span class="string">"bar"</span>) &#123;</span><br><span class="line">       <span class="comment">// 在这里刷新</span></span><br><span class="line">       <span class="keyword">this</span>.$router.go(<span class="number">0</span>);</span><br><span class="line">     &#125;</span><br><span class="line">   &#125;,</span><br><span class="line"> &#125;,</span><br></pre></td></tr></table></figure>
             
 
         </div>
