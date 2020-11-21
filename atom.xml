@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2020-11-21T10:33:55.170Z</updated>
+  <updated>2020-11-21T10:45:33.032Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://kisky3.github.io/2020/08/03/VueRouterAlert/"/>
     <id>https://kisky3.github.io/2020/08/03/VueRouterAlert/</id>
     <published>2020-08-03T14:50:46.000Z</published>
-    <updated>2020-11-21T10:33:55.170Z</updated>
+    <updated>2020-11-21T10:45:33.032Z</updated>
     
-    <content type="html"><![CDATA[<p>Vue Router的页面刷新处理</p><a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<p>Vue Router的页面刷新处理</p><a id="more"></a><p>上一篇文章里我们写了如何利用Vue+Vuetify打造自定义的消息确认组件<br><a href="'https://kisky3.github.io/2020/07/14/VueAlert/'">Vue+Vuetify打造独自的消息确认组件</a></p><p>今天我们来利用打造好的组件来写一个常见的需求。<br>比如用户在输入数据时,刷新页面或者进行了页面跳转,为了防止数据丢失应该跳出弹窗提示问用户是否保存数据。</p><p>需求如下:<br>1.从页面A跳转到页面B的时候进行页面B的自动刷新，以便获取最新的数据。<br>(包括浏览器上的返回和代码里<a>的返回)</a></p><p>2.从页面A跳转到页面B的时候,跳出自定义的弹窗，提示是否跳转页面。</p><p>3.在特定的编辑页面进行手动刷新(在浏览器上按刷新按钮)的时候,跳出系统自带弹窗提示是否刷新。</p>]]></content>
     
     <summary type="html">
     
