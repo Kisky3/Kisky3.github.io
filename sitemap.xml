@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://kisky3.github.io/2019/10/31/createDockerModx/</loc>
+    
+    <lastmod>2020-11-22T14:29:20.217Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://kisky3.github.io/2019/08/30/Ajax/</loc>
+    
+    <lastmod>2020-11-22T14:20:20.882Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://kisky3.github.io/2020/08/05/giterrorfatal-cannotlockref/</loc>
     
     <lastmod>2020-11-21T11:48:58.781Z</lastmod>
@@ -604,13 +618,6 @@
   </url>
   
   <url>
-    <loc>https://kisky3.github.io/2019/10/31/createDockerModx/</loc>
-    
-    <lastmod>2020-09-30T16:00:04.889Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://kisky3.github.io/2019/12/08/ConnectMysql8-0-14ContainerToSequel/</loc>
     
     <lastmod>2020-09-30T15:59:58.132Z</lastmod>
@@ -628,13 +635,6 @@
     <loc>https://kisky3.github.io/2019/08/30/Animation/</loc>
     
     <lastmod>2020-09-30T15:59:47.515Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://kisky3.github.io/2019/08/30/Ajax/</loc>
-    
-    <lastmod>2020-09-30T15:59:42.336Z</lastmod>
     
   </url>
   

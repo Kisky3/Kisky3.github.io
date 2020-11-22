@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://kisky3.github.io/2019/10/31/createDockerModx/</loc>
+    <lastmod>2020-11-22</lastmod>
+  </url>  <url>
+    <loc>https://kisky3.github.io/2019/08/30/Ajax/</loc>
+    <lastmod>2020-11-22</lastmod>
+  </url>  <url>
     <loc>https://kisky3.github.io/2020/08/05/giterrorfatal-cannotlockref/</loc>
     <lastmod>2020-11-21</lastmod>
   </url>  <url>
@@ -259,9 +265,6 @@
     <loc>https://kisky3.github.io/2020/03/12/createJsonByGAS/</loc>
     <lastmod>2020-09-30</lastmod>
   </url>  <url>
-    <loc>https://kisky3.github.io/2019/10/31/createDockerModx/</loc>
-    <lastmod>2020-09-30</lastmod>
-  </url>  <url>
     <loc>https://kisky3.github.io/2019/12/08/ConnectMysql8-0-14ContainerToSequel/</loc>
     <lastmod>2020-09-30</lastmod>
   </url>  <url>
@@ -269,9 +272,6 @@
     <lastmod>2020-09-30</lastmod>
   </url>  <url>
     <loc>https://kisky3.github.io/2019/08/30/Animation/</loc>
-    <lastmod>2020-09-30</lastmod>
-  </url>  <url>
-    <loc>https://kisky3.github.io/2019/08/30/Ajax/</loc>
     <lastmod>2020-09-30</lastmod>
   </url>  <url>
     <loc>https://kisky3.github.io/2019/12/08/AboutNuxtRouter/</loc>
