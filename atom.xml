@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2020-12-14T14:16:05.020Z</updated>
+  <updated>2020-12-07T14:55:27.046Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -15,20 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>VueInputIMEProbleam</title>
-    <link href="https://kisky3.github.io/2020/12/14/VueInputIMEProbleam/"/>
-    <id>https://kisky3.github.io/2020/12/14/VueInputIMEProbleam/</id>
-    <published>2020-12-14T14:16:05.000Z</published>
-    <updated>2020-12-14T14:16:05.020Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>AWS CLF Lesson1〜3 Memo</title>
@@ -49,6 +35,34 @@
       <category term="aws" scheme="https://kisky3.github.io/tags/aws/"/>
     
       <category term="AWS Certified Cloud Practitioner" scheme="https://kisky3.github.io/tags/AWS-Certified-Cloud-Practitioner/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue iOS IME Input Probleam</title>
+    <link href="https://kisky3.github.io/2020/08/14/VueInputIMEProbleam/"/>
+    <id>https://kisky3.github.io/2020/08/14/VueInputIMEProbleam/</id>
+    <published>2020-08-14T14:16:05.000Z</published>
+    <updated>2020-12-14T14:36:09.229Z</updated>
+    
+    <content type="html"><![CDATA[<p>Vue Input 在iOS下的IME日语输入问题</p><a id="more"></a><p>Vue的Input在网页输入时没啥问题 但是在iPhone的Sarari输入时会有输入值的重复输入<br>还有就是第一次输入日语的时候，default为null, 无论@change还是@input都无法将日语存储到state里。<br>如果需要监视输入值进行相关处理(Validation)之类的话，会出现bug。<br>但是奇怪的是一旦输入过一次数字之后，就不存在这个问题了。</p><h3 id="理由"><a href="#理由" class="headerlink" title="理由"></a>理由</h3><p>文字列を入力するとvue内のデータとしてはnull扱いで処理<br>• デフォルトがnullなのでchangeイベントが走らない<br>• 一度でも数字を入れるとそれがvueのdataに反映されるので、2回目以降は数字がnullに変わるので、chnageイベントが走る</p><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>1.使用Element: compositionend Event</p><blockquote><p>compositionend イベントは、 IME などのテキスト編集システムが現在の編集セッションを完了またはキャンセルした時に発生します。</p></blockquote><p>也就是当你使用</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Vue Input 在iOS下的IME日语输入问题&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Front-end Knowledge" scheme="https://kisky3.github.io/categories/Front-end-Knowledge/"/>
+    
+    
+      <category term="Vue" scheme="https://kisky3.github.io/tags/Vue/"/>
+    
+      <category term="Input" scheme="https://kisky3.github.io/tags/Input/"/>
+    
+      <category term="iOS" scheme="https://kisky3.github.io/tags/iOS/"/>
+    
+      <category term="IME" scheme="https://kisky3.github.io/tags/IME/"/>
     
   </entry>
   
