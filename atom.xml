@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2020-12-07T14:55:27.046Z</updated>
+  <updated>2020-12-17T01:21:27.809Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>iOSInputExpansion</title>
+    <link href="https://kisky3.github.io/2020/12/17/iOSInputExpansion/"/>
+    <id>https://kisky3.github.io/2020/12/17/iOSInputExpansion/</id>
+    <published>2020-12-17T01:21:27.000Z</published>
+    <updated>2020-12-17T01:21:27.809Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>AWS CLF Lesson1〜3 Memo</title>
@@ -475,30 +489,6 @@
       <category term="npm" scheme="https://kisky3.github.io/tags/npm/"/>
     
       <category term="package-lock" scheme="https://kisky3.github.io/tags/package-lock/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Make My First Pr Animation Video</title>
-    <link href="https://kisky3.github.io/2020/04/17/MakeMyFirstPrAnimationVideo/"/>
-    <id>https://kisky3.github.io/2020/04/17/MakeMyFirstPrAnimationVideo/</id>
-    <published>2020-04-17T10:01:37.000Z</published>
-    <updated>2020-09-30T16:03:18.790Z</updated>
-    
-    <content type="html"><![CDATA[<p>使用Adobe Pr制作我的第一个动画</p><a id="more"></a><p>最近尝试使用Adobe XD和 Pr制作了一个简易的产品开发说明动画。</p><p>制作出来的效果像下面这样：<br><br></p><div class="video-container"><iframe src="https://kisky3.github.io/2020/04/17/MakeMyFirstPrAnimationVideo/video.mp4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div><br><h1 id="参考视频："><a href="#参考视频：" class="headerlink" title="参考视频："></a>参考视频：</h1><ul><li><a href="https://www.bilibili.com/video/BV15b411q7zX?from=search&seid=12054323442701734548" target="_blank" rel="noopener">Adobe XD 25步从零到动效输出</a></li><li><a href="https://www.bilibili.com/video/BV1h7411U7BX" target="_blank" rel="noopener">10分钟快速上手premiere剪辑！</a></li><li><a href="https://www.bilibili.com/video/BV1nW411V7Vi" target="_blank" rel="noopener">（干货）2秒学会PR音频淡入淡出/PR如何让音频淡入淡出</a></li><li><a href="https://www.bilibili.com/video/BV1vJ411d7vy" target="_blank" rel="noopener">【Pr模板】1450个免费Pr模板，承包你一辈子的剪辑！</a></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;使用Adobe Pr制作我的第一个动画&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Front-end Knowledge" scheme="https://kisky3.github.io/categories/Front-end-Knowledge/"/>
-    
-    
-      <category term="Adobe Pr" scheme="https://kisky3.github.io/tags/Adobe-Pr/"/>
-    
-      <category term="Animation Video" scheme="https://kisky3.github.io/tags/Animation-Video/"/>
     
   </entry>
   
