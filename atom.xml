@@ -39,6 +39,32 @@
   </entry>
   
   <entry>
+    <title>Basic Operations on DynamoDB Tables by js</title>
+    <link href="https://kisky3.github.io/2020/09/16/Node-js%E3%81%A7DynamoDB%E3%81%AE%E6%93%8D%E4%BD%9C/"/>
+    <id>https://kisky3.github.io/2020/09/16/Node-jsでDynamoDBの操作/</id>
+    <published>2020-09-15T15:04:54.000Z</published>
+    <updated>2021-01-14T13:39:30.774Z</updated>
+    
+    <content type="html"><![CDATA[<p>DynamoDB的基本操作</p><a id="more"></a><p>用js对DynamoDB进行数据操作的话有两种方法,<br>一种是使用AWS.DynamoDB,另一种是使用AWS.DynamoDB.DocumentClient(docClient)</p><p><a href="https://qiita.com/Yuki_BB3/items/83198b4d9daca7ccd746" target="_blank" rel="noopener">https://qiita.com/Yuki_BB3/items/83198b4d9daca7ccd746</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;DynamoDB的基本操作&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="AWS" scheme="https://kisky3.github.io/tags/AWS/"/>
+    
+      <category term="DynamoDB" scheme="https://kisky3.github.io/tags/DynamoDB/"/>
+    
+      <category term="Node.js" scheme="https://kisky3.github.io/tags/Node-js/"/>
+    
+      <category term="DocumentClient" scheme="https://kisky3.github.io/tags/DocumentClient/"/>
+    
+  </entry>
+  
+  <entry>
     <title>AWSLambdaAccessError</title>
     <link href="https://kisky3.github.io/2020/09/15/AWSLambdaAccessError/"/>
     <id>https://kisky3.github.io/2020/09/15/AWSLambdaAccessError/</id>
@@ -52,28 +78,6 @@
       
       
         &lt;p&gt;&lt;a href=&quot;https://qiita.com/hiroga/items/a672344efcf940e66485&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://qiita.com/hiroga/items/a672344efcf94
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Node.jsでDynamoDBの操作</title>
-    <link href="https://kisky3.github.io/2020/09/15/Node-js%E3%81%A7DynamoDB%E3%81%AE%E6%93%8D%E4%BD%9C/"/>
-    <id>https://kisky3.github.io/2020/09/15/Node-jsでDynamoDBの操作/</id>
-    <published>2020-09-14T15:04:54.000Z</published>
-    <updated>2021-01-12T15:08:06.462Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a><p><a href="https://qiita.com/Yuki_BB3/items/83198b4d9daca7ccd746" target="_blank" rel="noopener">https://qiita.com/Yuki_BB3/items/83198b4d9daca7ccd746</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;a href=&quot;https://qiita.com/Yuki_BB3/items/83198b4d9daca7ccd746&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://qiita.com/Yuki_B
       
     
     </summary>
