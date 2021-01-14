@@ -17,7 +17,7 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png"},"articleBody":"DynamoDB的基本操作\n\n用js对DynamoDB进行数据操作的话有两种方法,一种是使用AWS.DynamoDB,另一种是使用AWS.DynamoDB.DocumentClient(docClient)\nhttps://qiita.com/Yuki_BB3/items/83198b4d9daca7ccd746\n","dateCreated":"2020-09-16T00:04:54+09:00","dateModified":"2021-01-14T22:39:30+09:00","datePublished":"2020-09-16T00:04:54+09:00","description":"DynamoDB的基本操作","headline":"Basic Operations on DynamoDB Tables by js","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"https://kisky3.github.io/2020/09/16/Node-jsでDynamoDBの操作/"},"publisher":{"@type":"Organization","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png","logo":{"@type":"ImageObject","url":"me.png"}},"url":"https://kisky3.github.io/2020/09/16/Node-jsでDynamoDBの操作/","keywords":"AWS, DynamoDB, Node.js, DocumentClient"}</script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png"},"articleBody":"DynamoDB的基本操作\n\n用js对DynamoDB进行数据操作的话有两种方法,一种是使用AWS.DynamoDB,另一种是使用AWS.DynamoDB.DocumentClient(docClient)\n例：AWS.DynamoDB\n123456789var dynamodb = new AWS.DynamoDB();var params = &#123;    TableName: 'DogTable',    Item:&#123;        'dogId':&#123;N: '12'&#125;, // 数字的情况下需要指定N        'name':&#123;S: '项羽'&#125; // 字符串的情况下要指定S    &#125;&#125;;dynamodb.putItem(params, callback);\n\n例：AWS.DynamoDB.DocumentClient\n123456789var docClient = new AWS.DynamoDB.DocumentClient();var params = &#123;    TableName: 'DogTable',    Item:&#123;         dogId: 12,         name: '项羽'    &#125;&#125;;docClient.put(params, callback);\n\n使用docClient的话,能够直接把原生的js代码转换成DynamoDB上的数据类型,代码相对简洁。因此在此只讨论docClient的情况。\n","dateCreated":"2020-09-16T00:04:54+09:00","dateModified":"2021-01-14T22:46:43+09:00","datePublished":"2020-09-16T00:04:54+09:00","description":"DynamoDB的基本操作","headline":"Basic Operations on DynamoDB Tables by js","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"https://kisky3.github.io/2020/09/16/Node-jsでDynamoDBの操作/"},"publisher":{"@type":"Organization","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png","logo":{"@type":"ImageObject","url":"me.png"}},"url":"https://kisky3.github.io/2020/09/16/Node-jsでDynamoDBの操作/","keywords":"AWS, DynamoDB, Node.js, DocumentClient"}</script>
     <meta name="description" content="DynamoDB的基本操作">
 <meta name="keywords" content="AWS,DynamoDB,Node.js,DocumentClient">
 <meta property="og:type" content="blog">
@@ -26,7 +26,7 @@
 <meta property="og:site_name" content="Xiang Yu&#39;s Blog">
 <meta property="og:description" content="DynamoDB的基本操作">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2021-01-14T13:39:30.774Z">
+<meta property="og:updated_time" content="2021-01-14T13:46:43.704Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Basic Operations on DynamoDB Tables by js">
 <meta name="twitter:description" content="DynamoDB的基本操作">
@@ -258,7 +258,13 @@
             <p>DynamoDB的基本操作</p>
 <a id="more"></a>
 <p>用js对DynamoDB进行数据操作的话有两种方法,<br>一种是使用AWS.DynamoDB,另一种是使用AWS.DynamoDB.DocumentClient(docClient)</p>
-<p><a href="https://qiita.com/Yuki_BB3/items/83198b4d9daca7ccd746" target="_blank" rel="noopener">https://qiita.com/Yuki_BB3/items/83198b4d9daca7ccd746</a></p>
+<p>例：AWS.DynamoDB</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> dynamodb = <span class="keyword">new</span> AWS.DynamoDB();</span><br><span class="line"><span class="keyword">var</span> params = &#123;</span><br><span class="line">    TableName: <span class="string">'DogTable'</span>,</span><br><span class="line">    Item:&#123;</span><br><span class="line">        <span class="string">'dogId'</span>:&#123;<span class="attr">N</span>: <span class="string">'12'</span>&#125;, <span class="comment">// 数字的情况下需要指定N</span></span><br><span class="line">        <span class="string">'name'</span>:&#123;<span class="attr">S</span>: <span class="string">'项羽'</span>&#125; <span class="comment">// 字符串的情况下要指定S</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line">dynamodb.putItem(params, callback);</span><br></pre></td></tr></table></figure>
+
+<p>例：AWS.DynamoDB.DocumentClient</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> docClient = <span class="keyword">new</span> AWS.DynamoDB.DocumentClient();</span><br><span class="line"><span class="keyword">var</span> params = &#123;</span><br><span class="line">    TableName: <span class="string">'DogTable'</span>,</span><br><span class="line">    Item:&#123;</span><br><span class="line">         dogId: <span class="number">12</span>,</span><br><span class="line">         name: <span class="string">'项羽'</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line">docClient.put(params, callback);</span><br></pre></td></tr></table></figure>
+
+<p>使用docClient的话,能够直接把原生的js代码转换成DynamoDB上的数据类型,代码相对简洁。<br>因此在此只讨论docClient的情况。</p>
 
             
 
