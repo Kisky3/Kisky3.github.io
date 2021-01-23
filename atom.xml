@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2020-12-07T14:55:27.046Z</updated>
+  <updated>2021-01-23T15:14:24.277Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>a</title>
+    <link href="https://kisky3.github.io/2021/01/24/a/"/>
+    <id>https://kisky3.github.io/2021/01/24/a/</id>
+    <published>2021-01-23T15:14:24.000Z</published>
+    <updated>2021-01-23T15:14:24.277Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>AWS CLF Lesson1〜3 Memo</title>
@@ -468,30 +482,6 @@
       <category term="slack" scheme="https://kisky3.github.io/tags/slack/"/>
     
       <category term="Google Apps Script" scheme="https://kisky3.github.io/tags/Google-Apps-Script/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hamilton（musical 2020）</title>
-    <link href="https://kisky3.github.io/2020/05/03/Hamilton/"/>
-    <id>https://kisky3.github.io/2020/05/03/Hamilton/</id>
-    <published>2020-05-03T14:45:37.000Z</published>
-    <updated>2020-09-30T16:01:55.268Z</updated>
-    
-    <content type="html"><![CDATA[<p> 汉密尔顿 Hamilton（2020）</p><a id="more"></a><p>最近各种刷音乐剧<br>难得发现一部从头到尾作曲作词都非常不错的！<br>而且R&amp;B和Rap相得益彰，真是喜欢。</p><p>在下面总结一下有关这部音乐剧的知识。</p><p>这部剧是描写美国国父群体中最关键的一个人物–亚历山大・汉密尔顿充满传奇的一生。</p><h2 id="第一幕"><a href="#第一幕" class="headerlink" title="第一幕"></a>第一幕</h2><p>第一幕一开始的开场提示的欢迎词的声音是来自于18世纪大英帝国的国王乔治三世。<br>有些做作也有些可爱。<br>但是正是因为乔治三世的独裁和偏执的性格，才使得北美殖民地由最初的减税呼声，最终酿成改变世界历史的独立运动。</p><p>开场是由阿龙伯尔</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt; 汉密尔顿 Hamilton（2020）&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="About Me" scheme="https://kisky3.github.io/categories/About-Me/"/>
-    
-    
-      <category term="musical" scheme="https://kisky3.github.io/tags/musical/"/>
-    
-      <category term="Hamilton" scheme="https://kisky3.github.io/tags/Hamilton/"/>
     
   </entry>
   
