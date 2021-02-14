@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Xiang Yu&#39;s Blog">
-    <title>AWSLambdaAccessError - Xiang Yu&#39;s Blog</title>
+    <title>AWS Lambda Dynamodb Access Error【AccessDeniedException】 - Xiang Yu&#39;s Blog</title>
     <meta name="author" content="Xiang Yu">
     
         <meta name="keywords" content="hexo,javascript,front-end,">
@@ -17,19 +17,19 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png"},"articleBody":"https://qiita.com/hiroga/items/a672344efcf940e66485\n","dateCreated":"2020-09-15T23:55:41+09:00","dateModified":"2021-01-12T23:56:21+09:00","datePublished":"2020-09-15T23:55:41+09:00","description":"","headline":"AWSLambdaAccessError","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"https://kisky3.github.io/2020/09/15/AWSLambdaAccessError/"},"publisher":{"@type":"Organization","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png","logo":{"@type":"ImageObject","url":"me.png"}},"url":"https://kisky3.github.io/2020/09/15/AWSLambdaAccessError/"}</script>
-    <meta name="description" content="https://qiita.com/hiroga/items/a672344efcf940e66485">
-<meta name="keywords" content="hexo,javascript,front-end">
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png"},"articleBody":"AWS Lambda和Dynamodb连接时的错误【AccessDeniedException】\n\n当想在lambda里通过特定条件读取Dynamodb里的数据时，发生了以下的错误\n123456789102017-04-03T12:11:12.144Z    ******  Unable to delete item. Error JSON:&#123;    &quot;message&quot;: &quot;User: arn:aws:sts::******:assumed-role/******/****** is not authorized to perform: dynamodb:DeleteItem on resource: arn:aws:dynamodb:us-east-1:******:table/******&quot;,    &quot;code&quot;: &quot;AccessDeniedException&quot;,    &quot;time&quot;: &quot;2017-04-03T12:11:12.131Z&quot;,    &quot;requestId&quot;: &quot;******&quot;,    &quot;statusCode&quot;: 400,    &quot;retryable&quot;: false,    &quot;retryDelay&quot;: 0&#125;\n\n","dateCreated":"2020-09-15T23:55:41+09:00","dateModified":"2021-02-14T23:43:55+09:00","datePublished":"2020-09-15T23:55:41+09:00","description":"AWS Lambda和Dynamodb连接时的错误【AccessDeniedException】","headline":"AWS Lambda Dynamodb Access Error【AccessDeniedException】","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"https://kisky3.github.io/2020/09/15/AWSLambdaAccessError/"},"publisher":{"@type":"Organization","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png","logo":{"@type":"ImageObject","url":"me.png"}},"url":"https://kisky3.github.io/2020/09/15/AWSLambdaAccessError/","keywords":"AWS, Lambda"}</script>
+    <meta name="description" content="AWS Lambda和Dynamodb连接时的错误【AccessDeniedException】">
+<meta name="keywords" content="AWS,Lambda">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="AWSLambdaAccessError">
+<meta property="og:title" content="AWS Lambda Dynamodb Access Error【AccessDeniedException】">
 <meta property="og:url" content="https://kisky3.github.io/2020/09/15/AWSLambdaAccessError/index.html">
 <meta property="og:site_name" content="Xiang Yu&#39;s Blog">
-<meta property="og:description" content="https://qiita.com/hiroga/items/a672344efcf940e66485">
+<meta property="og:description" content="AWS Lambda和Dynamodb连接时的错误【AccessDeniedException】">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2021-01-12T14:56:21.907Z">
+<meta property="og:updated_time" content="2021-02-14T14:43:55.727Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="AWSLambdaAccessError">
-<meta name="twitter:description" content="https://qiita.com/hiroga/items/a672344efcf940e66485">
+<meta name="twitter:title" content="AWS Lambda Dynamodb Access Error【AccessDeniedException】">
+<meta name="twitter:description" content="AWS Lambda和Dynamodb连接时的错误【AccessDeniedException】">
     
     
         
@@ -228,15 +228,17 @@
             <div id="main" data-behavior="3"
                  class="
                         hasCoverMetaIn
-                        ">
+                        hasCoverCaption">
                 
 <article class="post">
+    
+        <span class="post-header-cover-caption caption">Hello World, Hello Programming</span>
     
     
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title">
-            AWSLambdaAccessError
+            AWS Lambda Dynamodb Access Error【AccessDeniedException】
         </h1>
     
     
@@ -247,6 +249,12 @@
     	
     </time>
     
+        <span>in </span>
+        
+    <a class="category-link" href="/categories/Front-end-Knowledge/">Front-end Knowledge</a>
+
+
+    
 </div>
 
     
@@ -255,13 +263,24 @@
     
     <div class="post-content markdown">
         <div class="main-content-wrap">
-            <p><a href="https://qiita.com/hiroga/items/a672344efcf940e66485" target="_blank" rel="noopener">https://qiita.com/hiroga/items/a672344efcf940e66485</a></p>
+            <p>AWS Lambda和Dynamodb连接时的错误【AccessDeniedException】</p>
+<a id="more"></a>
+<p>当想在lambda里通过特定条件读取Dynamodb里的数据时，发生了以下的错误</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">2017-04-03T12:11:12.144Z    ******  Unable to delete item. Error JSON:</span><br><span class="line">&#123;</span><br><span class="line">    &quot;message&quot;: &quot;User: arn:aws:sts::******:assumed-role/******/****** is not authorized to perform: dynamodb:DeleteItem on resource: arn:aws:dynamodb:us-east-1:******:table/******&quot;,</span><br><span class="line">    &quot;code&quot;: &quot;AccessDeniedException&quot;,</span><br><span class="line">    &quot;time&quot;: &quot;2017-04-03T12:11:12.131Z&quot;,</span><br><span class="line">    &quot;requestId&quot;: &quot;******&quot;,</span><br><span class="line">    &quot;statusCode&quot;: 400,</span><br><span class="line">    &quot;retryable&quot;: false,</span><br><span class="line">    &quot;retryDelay&quot;: 0</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 
             
 
         </div>
     </div>
     <div id="post-footer" class="post-footer main-content-wrap">
+        
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">TAGGED IN</span><br/>
+                
+    <a class="tag tag--primary tag--small t-link" href="/tags/AWS/">AWS</a> <a class="tag tag--primary tag--small t-link" href="/tags/Lambda/">Lambda</a>
+
+            </div>
         
         
             <div class="post-actions-wrap">
@@ -311,8 +330,6 @@
             </li>
         
         
-            
-        
         <li class="post-action">
             
                 <a class="post-action-btn btn btn--default" href="#" aria-label="Back to top">
@@ -325,8 +342,6 @@
 
 
         
-        
-            
         
     </div>
 </article>
@@ -392,8 +407,6 @@
                 </a>
             </li>
         
-        
-            
         
         <li class="post-action">
             
@@ -482,8 +495,6 @@
 <script src="/assets/js/thumbs.js"></script>
 <script src="/assets/js/tranquilpeak.js"></script>
 <!--SCRIPTS END-->
-
-    
 
 
 
