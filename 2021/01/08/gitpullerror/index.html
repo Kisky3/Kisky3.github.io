@@ -17,19 +17,19 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png"},"articleBody":"Git Pull Error【Please commit your changes or stash them before you merge】\n\nGit pull 时的错误【Please commit your changes or stash them before you merge】\n","dateCreated":"2021-01-08T15:06:03+09:00","dateModified":"2021-02-14T23:31:44+09:00","datePublished":"2021-01-08T15:06:03+09:00","description":"Git Pull Error【Please commit your changes or stash them before you merge】","headline":"Git Pull Error【Please commit your changes or stash them before you merge】","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"https://kisky3.github.io/2021/01/08/gitpullerror/"},"publisher":{"@type":"Organization","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png","logo":{"@type":"ImageObject","url":"me.png"}},"url":"https://kisky3.github.io/2021/01/08/gitpullerror/","keywords":"GitErrors"}</script>
-    <meta name="description" content="Git Pull Error【Please commit your changes or stash them before you merge】">
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png"},"articleBody":"Git pull 时的错误【Please commit your changes or stash them before you merge】\n\n当git pull origin master当时候发生以下的错误：\n12345678910$ git pull origin masterFrom https://github.com/user-name/app-name     * branch　     master       -&gt;   FETCH_HEAD Updating e05c05f..050505error: Your local changes to the following files would be overwritten by merge:          Gemfile.lock         config/initializers/devise.rbPlease commit your changes or stash them before you merge.Aborting$\n\n解决方法1: 删除文件123# ファイルのあるディレクトリへ移動$ rm Gemfile.lock$ git pull origin master\n\n\n解决方法2: stash回避123456# 1) コンフり起こしてるファイルを一時退避$ git stash# 2) 退避したコミットしていないものが表示されるのでpullする$ git pull origin master# 3) スタッシュを戻す$ git stash pop\n\n\n解决方法3: 强制push12","dateCreated":"2021-01-08T15:06:03+09:00","dateModified":"2021-02-14T23:35:27+09:00","datePublished":"2021-01-08T15:06:03+09:00","description":"Git pull 时的错误【Please commit your changes or stash them before you merge】","headline":"Git Pull Error【Please commit your changes or stash them before you merge】","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"https://kisky3.github.io/2021/01/08/gitpullerror/"},"publisher":{"@type":"Organization","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png","logo":{"@type":"ImageObject","url":"me.png"}},"url":"https://kisky3.github.io/2021/01/08/gitpullerror/","keywords":"GitErrors"}</script>
+    <meta name="description" content="Git pull 时的错误【Please commit your changes or stash them before you merge】">
 <meta name="keywords" content="GitErrors">
 <meta property="og:type" content="blog">
 <meta property="og:title" content="Git Pull Error【Please commit your changes or stash them before you merge】">
 <meta property="og:url" content="https://kisky3.github.io/2021/01/08/gitpullerror/index.html">
 <meta property="og:site_name" content="Xiang Yu&#39;s Blog">
-<meta property="og:description" content="Git Pull Error【Please commit your changes or stash them before you merge】">
+<meta property="og:description" content="Git pull 时的错误【Please commit your changes or stash them before you merge】">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2021-02-14T14:31:44.767Z">
+<meta property="og:updated_time" content="2021-02-14T14:35:27.877Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git Pull Error【Please commit your changes or stash them before you merge】">
-<meta name="twitter:description" content="Git Pull Error【Please commit your changes or stash them before you merge】">
+<meta name="twitter:description" content="Git pull 时的错误【Please commit your changes or stash them before you merge】">
     
     
         
@@ -263,10 +263,18 @@
     
     <div class="post-content markdown">
         <div class="main-content-wrap">
-            <p>Git Pull Error【Please commit your changes or stash them before you merge】</p>
+            <p>Git pull 时的错误【Please commit your changes or stash them before you merge】</p>
 <a id="more"></a>
-<p>Git pull 时的错误【Please commit your changes or stash them before you merge】</p>
+<p>当<code>git pull origin master</code>当时候发生以下的错误：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">$ git pull origin master</span><br><span class="line">From https://github.com/user-name/app-name</span><br><span class="line">     * branch　     master       -&gt;   FETCH_HEAD </span><br><span class="line">Updating e05c05f..050505</span><br><span class="line">error: Your local changes to the following files would be overwritten by merge: </span><br><span class="line">         Gemfile.lock</span><br><span class="line">         config/initializers/devise.rb</span><br><span class="line">Please commit your changes or stash them before you merge.</span><br><span class="line">Aborting</span><br><span class="line">$</span><br></pre></td></tr></table></figure>
 
+<h3 id="解决方法1-删除文件"><a href="#解决方法1-删除文件" class="headerlink" title="解决方法1: 删除文件"></a>解决方法1: 删除文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># ファイルのあるディレクトリへ移動</span><br><span class="line">$ rm Gemfile.lock</span><br><span class="line">$ git pull origin master</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="解决方法2-stash回避"><a href="#解决方法2-stash回避" class="headerlink" title="解决方法2: stash回避"></a>解决方法2: stash回避</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 1) コンフり起こしてるファイルを一時退避</span><br><span class="line">$ git stash</span><br><span class="line"># 2) 退避したコミットしていないものが表示されるのでpullする</span><br><span class="line">$ git pull origin master</span><br><span class="line"># 3) スタッシュを戻す</span><br><span class="line">$ git stash pop</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="解决方法3-强制push"><a href="#解决方法3-强制push" class="headerlink" title="解决方法3: 强制push"></a>解决方法3: 强制push</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
             
 
         </div>
