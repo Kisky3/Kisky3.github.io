@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://kisky3.github.io/2021/01/08/gitpullerror/</loc>
+    <lastmod>2021-03-16</lastmod>
+  </url>  <url>
     <loc>https://kisky3.github.io/2019/06/23/FirstBlog/</loc>
     <lastmod>2021-03-14</lastmod>
   </url>  <url>
@@ -17,9 +20,6 @@
     <lastmod>2021-02-21</lastmod>
   </url>  <url>
     <loc>https://kisky3.github.io/2020/09/15/AWSLambdaAccessError/</loc>
-    <lastmod>2021-02-14</lastmod>
-  </url>  <url>
-    <loc>https://kisky3.github.io/2021/01/08/gitpullerror/</loc>
     <lastmod>2021-02-14</lastmod>
   </url>  <url>
     <loc>https://kisky3.github.io/2020/09/12/VueUndefinedError/</loc>
