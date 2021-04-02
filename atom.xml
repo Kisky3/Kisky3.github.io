@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-04-02T14:57:01.596Z</updated>
+  <updated>2021-04-02T14:57:41.276Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>a</title>
+    <link href="https://kisky3.github.io/2021/04/02/a-3/"/>
+    <id>https://kisky3.github.io/2021/04/02/a-3/</id>
+    <published>2021-04-02T14:57:41.000Z</published>
+    <updated>2021-04-02T14:57:41.276Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>a</title>
@@ -425,30 +439,6 @@
     
     
       <category term="git" scheme="https://kisky3.github.io/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Hexo ERROR】fatal in unpopulated submodule &#39;.deploy_git&#39;</title>
-    <link href="https://kisky3.github.io/2020/06/01/HexoError/"/>
-    <id>https://kisky3.github.io/2020/06/01/HexoError/</id>
-    <published>2020-05-31T15:34:01.000Z</published>
-    <updated>2021-03-19T15:50:37.274Z</updated>
-    
-    <content type="html"><![CDATA[<p>【Hexo异常】fatal: in unpopulated submodule ‘.deploy_git’</p><a id="more"></a><p>今天又重新弄了下hexo，好久不动它居然报了错。<br>这种情况可以先安装下相关的依赖：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git –save</span><br></pre></td></tr></table></figure><p>实在不行，就把它删掉，然后重新生成和部署。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">rm -rf .deploy_git</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><h2 id="OK-DONE"><a href="#OK-DONE" class="headerlink" title="OK DONE!"></a>OK DONE!</h2>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;【Hexo异常】fatal: in unpopulated submodule ‘.deploy_git’&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Front-end Knowledge" scheme="https://kisky3.github.io/categories/Front-end-Knowledge/"/>
-    
-    
-      <category term="hexo" scheme="https://kisky3.github.io/tags/hexo/"/>
-    
-      <category term="blog" scheme="https://kisky3.github.io/tags/blog/"/>
     
   </entry>
   
