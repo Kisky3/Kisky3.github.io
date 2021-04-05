@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-04-05T12:24:50.770Z</updated>
+  <updated>2021-04-05T12:27:12.087Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -17,16 +17,26 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>VueAndVuex</title>
+    <title>How to connect Vue with Vuex</title>
     <link href="https://kisky3.github.io/2021/04/05/VueAndVuex/"/>
     <id>https://kisky3.github.io/2021/04/05/VueAndVuex/</id>
     <published>2021-04-05T12:24:50.000Z</published>
-    <updated>2021-04-05T12:24:50.770Z</updated>
+    <updated>2021-04-05T12:27:12.087Z</updated>
+    
+    <content type="html"><![CDATA[<p>如何连接Vue和Vuex的值</p><a id="more"></a><hr>]]></content>
     
     <summary type="html">
     
+      &lt;p&gt;如何连接Vue和Vuex的值&lt;/p&gt;
+    
     </summary>
     
+      <category term="Front-end Knowledge" scheme="https://kisky3.github.io/categories/Front-end-Knowledge/"/>
+    
+    
+      <category term="Vue" scheme="https://kisky3.github.io/tags/Vue/"/>
+    
+      <category term="Vuex" scheme="https://kisky3.github.io/tags/Vuex/"/>
     
   </entry>
   
