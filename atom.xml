@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-04-06T10:37:26.353Z</updated>
+  <updated>2021-04-06T10:48:49.316Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -17,16 +17,26 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>HowToDesignYourGithubPage</title>
+    <title>How To Design Your Github Page</title>
     <link href="https://kisky3.github.io/2021/04/06/HowToDesignYourGithubPage/"/>
     <id>https://kisky3.github.io/2021/04/06/HowToDesignYourGithubPage/</id>
     <published>2021-04-06T10:37:26.000Z</published>
-    <updated>2021-04-06T10:37:26.353Z</updated>
+    <updated>2021-04-06T10:48:49.316Z</updated>
+    
+    <content type="html"><![CDATA[<p>如何美化设计你的Github主页</p><a id="more"></a><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><p>看见别人的 Github 和平常不太一样，通过搜索才知道可以通过建立和用户名相同的仓库展示到主页，丰富主页。</p><h3 id="开始动手"><a href="#开始动手" class="headerlink" title="开始动手"></a>开始动手</h3><ol><li>创建与 GitHub 账户同名的仓库，并勾选 README<img src="./1.png" style="width: 300px"></li></ol><p>从上图可以看到提示：</p><blockquote><p>You found a secret! Kisky3/Kisky3 is a ✨special ✨ repository that you can use to add a README.md to your GitHub profile. Make sure it’s public and initialize it with a README to get started.</p></blockquote><p>创建成功后返回主页查看效果,到此你会不会好奇这是怎样实现的，不妨我们查看下此仓库中唯一的README.md文件。</p><p>细心的你可以发现主页展示的内容就是此文件中的内容，并且 Github 官方也调皮的为你隐藏了提示。</p><h3 id="美化主页"><a href="#美化主页" class="headerlink" title="美化主页"></a>美化主页</h3><p>美化的思路就是通过改变与 GitHub 账户同名的仓库中的README.md文件，在主页展示不同的效果。</p><ol><li>引入GitHub 统计卡片</li></ol><p>项目地址：<a href="https://github.com/anuraghazra/" target="_blank" rel="noopener">https://github.com/anuraghazra/</a><br>readme 文件中已有详细的使用说明</p><p>更多效果，这就和编写网页一样，后面请尽情发挥。。。</p><p>最终效果：<br><img src="./2.png" style="width: 300px"></p>]]></content>
     
     <summary type="html">
     
+      &lt;p&gt;如何美化设计你的Github主页&lt;/p&gt;
+    
     </summary>
     
+      <category term="Front-end Knowledge" scheme="https://kisky3.github.io/categories/Front-end-Knowledge/"/>
+    
+    
+      <category term="Github" scheme="https://kisky3.github.io/tags/Github/"/>
+    
+      <category term="Theme" scheme="https://kisky3.github.io/tags/Theme/"/>
     
   </entry>
   
