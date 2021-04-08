@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Xiang Yu&#39;s Blog</title>
+  <title>向宇的博客 | Xiang Yu&#39;s Blog</title>
   
   <subtitle>Hello World, Hello Programming!</subtitle>
   <link href="/atom.xml" rel="self"/>
