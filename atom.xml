@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-04-09T15:21:07.569Z</updated>
+  <updated>2021-04-09T15:29:38.897Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://kisky3.github.io/2021/04/09/NewFeaturesinVue3/"/>
     <id>https://kisky3.github.io/2021/04/09/NewFeaturesinVue3/</id>
     <published>2021-04-09T14:58:23.000Z</published>
-    <updated>2021-04-09T15:21:07.569Z</updated>
+    <updated>2021-04-09T15:29:38.897Z</updated>
     
-    <content type="html"><![CDATA[<p>Vue3的新特性以及对TypeScript的全支持</p><a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<p>Vue3的新特性以及对TypeScript的全支持</p><a id="more"></a><p>以前使用Vue2的时候相信很多朋友都没有特别好的体验。<br>但是尤大发布Vue3之后，据说能够友好地拥抱TypeScript了。<br>今天一边谈谈Vue3大新特性一边总结一下在Vue3里使用TypeScript的方法。</p>]]></content>
     
     <summary type="html">
     
