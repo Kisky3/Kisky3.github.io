@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-04-10T06:22:42.664Z</updated>
+  <updated>2021-04-10T06:14:57.925Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -15,20 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>ThreejsMemo</title>
-    <link href="https://kisky3.github.io/2021/04/10/ThreejsMemo/"/>
-    <id>https://kisky3.github.io/2021/04/10/ThreejsMemo/</id>
-    <published>2021-04-10T06:22:42.000Z</published>
-    <updated>2021-04-10T06:22:42.664Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>New Feature - Vue 3&#39;s Full TypeScript Support</title>
@@ -171,6 +157,30 @@
       <category term="Vue" scheme="https://kisky3.github.io/tags/Vue/"/>
     
       <category term="Typescript" scheme="https://kisky3.github.io/tags/Typescript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Three.js Memo</title>
+    <link href="https://kisky3.github.io/2021/03/10/ThreejsMemo/"/>
+    <id>https://kisky3.github.io/2021/03/10/ThreejsMemo/</id>
+    <published>2021-03-10T06:22:42.000Z</published>
+    <updated>2021-04-10T06:33:32.344Z</updated>
+    
+    <content type="html"><![CDATA[<p>Three.js学习笔记</p><a id="more"></a><ol><li><p>什么是WebGL<br>你可以把WebGL简单地认为是一种网络标准，定义了一些较底层的图形接口。在这些标准被定义之后，Chrome、Firefox之类的浏览器实现了这些标准。然后，程序员就能通过JavaScript代码，在网页上实现三维图形的渲染了。</p></li><li><p>什么是Three.js</p><blockquote><p>Three.js是一个3D JavaScript库。</p></blockquote></li><li><p>Three.js能用来干什么<br>Three.js封装了底层的图形接口，使得程序员能够在无需掌握繁冗的图形学知识的情况下，也能用简单的代码实现三维场景的渲染。我们都知道，更高的封装程度往往意味着灵活性的牺牲，但是Three.js在这方面做得很好。几乎不会有WebGL支持而Three.js实现不了的情况，而且就算真的遇到这种情况，你还是能同时使用WebGL去实现，而不会有冲突。</p></li><li><p>WebGL vs. Three.js<br>对于一个简单的功能:渲染黑色背景下的白色正方形和三角形,使用原生WebGL接口实现同样功能需要5倍多的代码量，而且很多代码对于没有图形学基础的程序员是很难看懂的。由这个例子我们可以看出，使用Three.js开发要比WebGL更快更高效。尤其对图形学知识不熟悉的程序员而言，使用Three.js能够降低学习成本，提高三维图形程序开发的效率。</p></li><li><p>开发环境<br>Three.js是一个JavaScript库，所以，你可以使用平时开发JavaScript应用的环境开发Three.js应用。<br>推荐：Chrome<br>repo：<a href="https://github.com/mrdoob/three.js/tree/master/build" target="_blank" rel="noopener">https://github.com/mrdoob/three.js/tree/master/build</a></p></li></ol><p>引用：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;three.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><p>然后就能通过全局变量THREE访问到所有属性和方法了。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Three.js学习笔记&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Front-end Knowledge" scheme="https://kisky3.github.io/categories/Front-end-Knowledge/"/>
+    
+    
+      <category term="three.js" scheme="https://kisky3.github.io/tags/three-js/"/>
+    
+      <category term="WebGL" scheme="https://kisky3.github.io/tags/WebGL/"/>
     
   </entry>
   
