@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-04-22T16:20:34.774Z</updated>
+  <updated>2021-05-10T15:30:09.388Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -17,16 +17,24 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>CentOS6Error</title>
+    <title>CentOS6 Error:All mirror URLs are not using ftp, http[s] or file.</title>
     <link href="https://kisky3.github.io/2021/04/23/CentOS6Error/"/>
     <id>https://kisky3.github.io/2021/04/23/CentOS6Error/</id>
     <published>2021-04-22T16:20:34.000Z</published>
-    <updated>2021-04-22T16:20:34.774Z</updated>
+    <updated>2021-05-10T15:30:09.388Z</updated>
+    
+    <content type="html"><![CDATA[<p>CentOS6 Error: All mirror URLs are not using ftp, http[s] or file.</p><a id="more"></a>]]></content>
     
     <summary type="html">
     
+      &lt;p&gt;CentOS6 Error: All mirror URLs are not using ftp, http[s] or file.&lt;/p&gt;
+    
     </summary>
     
+      <category term="Back-end Knowledge" scheme="https://kisky3.github.io/categories/Back-end-Knowledge/"/>
+    
+    
+      <category term="CentOS6" scheme="https://kisky3.github.io/tags/CentOS6/"/>
     
   </entry>
   
