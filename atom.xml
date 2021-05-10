@@ -31,17 +31,17 @@
   </entry>
   
   <entry>
-    <title>Set LocalStorage Wih JS , Read With CakePHP</title>
+    <title>Set localStorage Wih JS , Read With CakePHP</title>
     <link href="https://kisky3.github.io/2021/04/19/SetCookieWihJS-ReadWithCakePHP/"/>
     <id>https://kisky3.github.io/2021/04/19/SetCookieWihJS-ReadWithCakePHP/</id>
     <published>2021-04-19T14:55:01.000Z</published>
-    <updated>2021-05-10T14:58:07.428Z</updated>
+    <updated>2021-05-10T15:03:55.276Z</updated>
     
-    <content type="html"><![CDATA[<p>在js里设定LocalStorage,并在CakePHP里使用</p><a id="more"></a><p>在最近要在js里设定LocalStorage,并在CakePHP里读取js的localstorage.而且使用js和CakePHP的地方分别处于两个repo.</p><p>为了解决这个问题,费了一点时间.</p><p>下面不知道是不是最好的方法,但是能够满足需求了.</p>]]></content>
+    <content type="html"><![CDATA[<p>在js里设定localStorage,并在CakePHP里使用</p><a id="more"></a><p>在最近要在js里设定localStorage,并在CakePHP里读取js的localStorage.而且使用js和CakePHP的地方分别处于两个repo.</p><p>为了解决这个问题,费了一点时间.</p><p>下面不知道是不是最好的方法,但是能够满足需求了.</p><ol><li>在Javascript里设定localStorage<!-- javascript -->{$this-&gt;Element(‘scripts_oikuraz_logininfo’)}</li></ol>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;在js里设定LocalStorage,并在CakePHP里使用&lt;/p&gt;
+      &lt;p&gt;在js里设定localStorage,并在CakePHP里使用&lt;/p&gt;
     
     </summary>
     
