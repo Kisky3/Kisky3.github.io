@@ -5,8 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Xiang Yu&#39;s Blog">
-    <title>JS About if-xx- And -a-b - Xiang Yu&#39;s Blog</title>
+    <meta name="generator" content="向宇的博客 | Xiang Yu&#39;s Blog">
+    <title>JS About if-xx- And -a-b - 向宇的博客 | Xiang Yu&#39;s Blog</title>
     <meta name="author" content="Xiang Yu">
     
         <meta name="keywords" content="hexo,javascript,front-end,">
@@ -17,16 +17,16 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png"},"articleBody":"JS函数关于if-xx-和-a-b\n\n\nJS函数:f(xx)JS对于括号里的表达式，会被强制转换成布尔类型\n基本原理如下表：\n\n\n\ntype\nresult\n\n\n\nUndefined\nfalse\n\n\nNull\nfalse\n\n\nBoolean\n直接判断\n\n\nNumber\n+0，-0，或者NaN为false，其他为true\n\n\nString\n空字符串为false，其他都为true\n\n\nObject\ntrue\n\n\n\nJS函数：a==bJS对于a==b类型会进行变形比较，原理如下表：基本上遇到数字以外的类型可以先考虑往数字上转型\n\n\n\nx\ny\n结果\n\n\n\nnull\nundefined\ntrue\n\n\nNumber\nString\nx == toNumber(y)\n\n\nBoolean\n(any)\ntoNumber(x) == y\n\n\nObject\nString or Number\ntoPrimitive(x) == y\n\n\notherwise\notherwise\nfalse\n\n\n\ntoNumber其他类型转换成数字用toNumber：\n\n\n\ntype\nresult\n\n\n\nUndefined\nNaN\n\n\nNull\n0\n\n\nBoolean\ntrue -&gt; 1, false -&gt; 0\n\n\nString\n“abc” -&gt; NaN, “123” -&gt; 123\n\n\n\ntoPrimitive对于Object类型，先尝试调用.v3alueOf方法获取结果。如果没定义，再尝试调用.toString方法获取结果。\n","dateCreated":"2019-02-26T18:35:02+09:00","dateModified":"2021-05-13T23:43:33+09:00","datePublished":"2019-02-26T18:35:02+09:00","description":"JS函数关于if-xx-和-a-b","headline":"JS About if-xx- And -a-b","image":["20190226.png","cover.jpg"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://kisky3.github.io/2019/02/26/JS函数关于if-xx-和-a-b/"},"publisher":{"@type":"Organization","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png","logo":{"@type":"ImageObject","url":"me.png"}},"url":"https://kisky3.github.io/2019/02/26/JS函数关于if-xx-和-a-b/","keywords":"JS","thumbnailUrl":"20190226.png"}</script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png"},"articleBody":"JS函数关于if-xx-和-a-b\n\n\nJS函数:f(xx)JS对于括号里的表达式，会被强制转换成布尔类型\n基本原理如下表：\n\n\n\ntype\nresult\n\n\n\nUndefined\nfalse\n\n\nNull\nfalse\n\n\nBoolean\n直接判断\n\n\nNumber\n+0，-0，或者NaN为false，其他为true\n\n\nString\n空字符串为false，其他都为true\n\n\nObject\ntrue\n\n\n\nJS函数：a==bJS对于a==b类型会进行变形比较，原理如下表：基本上遇到数字以外的类型可以先考虑往数字上转型\n\n\n\nx\ny\n结果\n\n\n\nnull\nundefined\ntrue\n\n\nNumber\nString\nx == toNumber(y)\n\n\nBoolean\n(any)\ntoNumber(x) == y\n\n\nObject\nString or Number\ntoPrimitive(x) == y\n\n\notherwise\notherwise\nfalse\n\n\n\ntoNumber其他类型转换成数字用toNumber：\n\n\n\ntype\nresult\n\n\n\nUndefined\nNaN\n\n\nNull\n0\n\n\nBoolean\ntrue -&gt; 1, false -&gt; 0\n\n\nString\n“abc” -&gt; NaN, “123” -&gt; 123\n\n\n\ntoPrimitive对于Object类型，先尝试调用.v3alueOf方法获取结果。如果没定义，再尝试调用.toString方法获取结果。\n","dateCreated":"2019-02-26T18:35:02+09:00","dateModified":"2021-03-20T00:50:37+09:00","datePublished":"2019-02-26T18:35:02+09:00","description":"JS函数关于if-xx-和-a-b","headline":"JS About if-xx- And -a-b","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"https://kisky3.github.io/2019/02/26/JS函数关于if-xx-和-a-b/"},"publisher":{"@type":"Organization","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png","logo":{"@type":"ImageObject","url":"me.png"}},"url":"https://kisky3.github.io/2019/02/26/JS函数关于if-xx-和-a-b/","keywords":"JS"}</script>
     <meta name="description" content="JS函数关于if-xx-和-a-b">
 <meta name="keywords" content="JS">
 <meta property="og:type" content="blog">
 <meta property="og:title" content="JS About if-xx- And -a-b">
 <meta property="og:url" content="https://kisky3.github.io/2019/02/26/JS函数关于if-xx-和-a-b/index.html">
-<meta property="og:site_name" content="Xiang Yu&#39;s Blog">
+<meta property="og:site_name" content="向宇的博客 | Xiang Yu&#39;s Blog">
 <meta property="og:description" content="JS函数关于if-xx-和-a-b">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2021-05-13T14:43:33.664Z">
+<meta property="og:updated_time" content="2021-03-19T15:50:37.286Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JS About if-xx- And -a-b">
 <meta name="twitter:description" content="JS函数关于if-xx-和-a-b">
@@ -38,12 +38,6 @@
         <meta property="og:image" content="https://kisky3.github.io/assets/images/me.png"/>
     
     
-        <meta property="og:image" content="https://kisky3.github.io/2019/02/26/JS函数关于if-xx-和-a-b/20190226.png"/>
-        <meta class="swiftype" name="image" data-type="enum" content="https://kisky3.github.io/2019/02/26/JS函数关于if-xx-和-a-b/20190226.png" />
-    
-    
-        <meta property="og:image" content="https://kisky3.github.io/2019/02/26/JS函数关于if-xx-和-a-b/cover.jpg"/>
-        <meta class="swiftype" name="image" data-type="enum" content="https://kisky3.github.io/2019/02/26/JS函数关于if-xx-和-a-b/cover.jpg" />
     
     
     <!--STYLES-->
@@ -77,7 +71,7 @@
 <header id="header" data-behavior="3">
     <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
     <div class="header-title">
-        <a class="header-title-link" href="/ ">Xiang Yu&#39;s Blog</a>
+        <a class="header-title-link" href="/ ">向宇的博客 | Xiang Yu&#39;s Blog</a>
     </div>
     
         
@@ -228,13 +222,17 @@
 </nav>
 
             
-        <div class="post-header-cover
-                    text-left
-                    post-header-cover--partial"
-             style="background-image:url('/2019/02/26/JS函数关于if-xx-和-a-b/cover.jpg');"
-             data-behavior="3">
-            
-                <div class="post-header main-content-wrap text-left">
+            <div id="main" data-behavior="3"
+                 class="
+                        hasCoverMetaIn
+                        hasCoverCaption">
+                
+<article class="post">
+    
+        <span class="post-header-cover-caption caption">Hello World, Hello Programming</span>
+    
+    
+        <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title">
             JS About if-xx- And -a-b
@@ -259,18 +257,6 @@
     
 </div>
 
-            
-        </div>
-
-            <div id="main" data-behavior="3"
-                 class="hasCover
-                        hasCoverMetaIn
-                        hasCoverCaption">
-                
-<article class="post">
-    
-        <span class="post-header-cover-caption caption">Hello World, Hello Programming</span>
-    
     
     <div class="post-content markdown">
         <div class="main-content-wrap">
@@ -602,5 +588,5 @@
 
 
 
-    </body>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/assets/hijiki.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.9}});</script></body>
 </html>
