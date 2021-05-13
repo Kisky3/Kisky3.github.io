@@ -69,13 +69,13 @@
     <link href="https://kisky3.github.io/2021/03/11/AboutAWSSQSandSNS/"/>
     <id>https://kisky3.github.io/2021/03/11/AboutAWSSQSandSNS/</id>
     <published>2021-03-10T15:50:23.000Z</published>
-    <updated>2021-05-13T15:11:45.158Z</updated>
+    <updated>2021-05-13T15:13:35.618Z</updated>
     
-    <content type="html"><![CDATA[<p>AWS的SNS和SQS详解</p><a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<p>AWS的SQS和SNS详解</p><a id="more"></a><h3 id="SQS-Simple-Queue-Service"><a href="#SQS-Simple-Queue-Service" class="headerlink" title="SQS (Simple Queue Service)"></a>SQS (Simple Queue Service)</h3><p><code>Amazon Simple Queue Service (SQS)是一种完全托管的消息队列服务</code>，可以让你分离和扩展微服务、分布式系统和无服务应用程序。</p><p>在讲解SQS之前，首先让我们了解一下什么是消息队列。</p><h4 id="消息队列："><a href="#消息队列：" class="headerlink" title="消息队列："></a>消息队列：</h4><p>消息队列<br>还是举一个电商的例子，一个用户在电商网站下单后付款后，应用服务器马上查询/更新数据库，连接支付网关并查询支付状态，通知短信/邮件网关发送相关短信/邮件，更新库存系统，更新物流系统……最后返回信息给用户，“您的下单已成功”。</p><p>但是如果网站的访问数很大，或者正值促销活动（比如淘宝双11，京东618）呢？</p><p>这个时候每一个流程都是一个瓶颈，一旦某一个地方达到了瓶颈或者出现故障，又或者用户下单的时间比程序处理订单的时间还要久的情况下，都会让用户得不到成功下单的结果，或者得到结果的时间非常长，导致用户体验不好。</p><p>这个时候，我们就要考虑到应用程序的解耦（decouple）。</p><p>我们可以引入消息队列，让不同的应用程序之间打断强连接的关系，互不干扰。</p><p>应用服务器在接收到用户付款的订单之后，就把相关的信息丢到消息队列，并且返回用户“您的下单已成功，请稍后查看详细订单状态”。</p><p>而支付网关、短信/邮件网关、库存系统、物流系统等等可以到消息队列里面拉取信息，并且进行相关的数据更新和操作。</p><p>这些操作可能不需要是实时的，但是至少能保证这些队列里的信息最终都会被执行。比如下单后我不一定马上能收到短信/邮件的通知，我可能5分钟/10分钟之后才收到这些信息通知，但这个并不影响正常的业务。</p><p>这样子，<code>消息队列就起到了连接上层业务和下层业务的作用</code>。</p><p><code>Amazon SQS相当于提供了一个分布式、高可用、高性能的消息队列服务</code>。</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;AWS的SNS和SQS详解&lt;/p&gt;
+      &lt;p&gt;AWS的SQS和SNS详解&lt;/p&gt;
     
     </summary>
     
