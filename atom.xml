@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-06-10T15:00:03.797Z</updated>
+  <updated>2021-06-10T15:09:53.189Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://kisky3.github.io/2021/06/06/InstallipaFileToYouriPhone/"/>
     <id>https://kisky3.github.io/2021/06/06/InstallipaFileToYouriPhone/</id>
     <published>2021-06-06T11:16:14.000Z</published>
-    <updated>2021-06-10T15:00:03.797Z</updated>
+    <updated>2021-06-10T15:09:53.189Z</updated>
     
-    <content type="html"><![CDATA[<p>如何将ipa文件安装到你的iPhone上</p><a id="more"></a><p>今天拿到了一份ipa文件，然后需要在自己的手机上进行测试。<br>记录一下测试方法。</p><p>使用的app是<code>Apple Configurator 2</code>。</p><h3 id="需要准备的东西"><a href="#需要准备的东西" class="headerlink" title="需要准备的东西"></a>需要准备的东西</h3><ul><li>Mac</li><li>iPhone</li><li>数据线(连接用)</li></ul><hr><h3 id="开始干"><a href="#开始干" class="headerlink" title="开始干"></a>开始干</h3><p>1.首先从App Store里下载Apple Configurator。<br>利用下面的链接, 在App Store里搜索Apple Configurator。</p><p><a href="https://apps.apple.com/jp/app/apple-configurator-2/id1037126344" target="_blank" rel="noopener">https://apps.apple.com/jp/app/apple-configurator-2/id1037126344</a></p><img src="./1.png" style="width:500px"><p>安装完之后,应该能看到下面的界面。<br><img src="./2.png" style="width:500px"></p><p>然后将iPhone和Mac进行连接。<br><img src="./3.png" style="width:500px"></p><p>点击出现的媒体图标(就是你的iPhone),然后把ipa文件拖拽进去。<br>然后就等着下载好就行了。</p>]]></content>
+    <content type="html"><![CDATA[<p>如何将ipa文件安装到你的iPhone上</p><a id="more"></a><p>今天拿到了一份ipa文件，然后需要在自己的手机上进行测试。<br>记录一下测试方法。</p><p>使用的app是<code>Apple Configurator 2</code>。</p><h3 id="需要准备的东西"><a href="#需要准备的东西" class="headerlink" title="需要准备的东西"></a>需要准备的东西</h3><ul><li>Mac</li><li>iPhone</li><li>数据线(连接用)</li></ul><hr><h3 id="开始干"><a href="#开始干" class="headerlink" title="开始干"></a>开始干</h3><p>1.首先从App Store里下载Apple Configurator。<br>利用下面的链接, 在App Store里搜索Apple Configurator。</p><p><a href="https://apps.apple.com/jp/app/apple-configurator-2/id1037126344" target="_blank" rel="noopener">https://apps.apple.com/jp/app/apple-configurator-2/id1037126344</a></p><img src="./1.png" style="width:500px"><p>安装完之后,应该能看到下面的界面。<br><img src="./2.png" style="width:500px"></p><p>然后将iPhone和Mac进行连接。<br><img src="./3.png" style="width:500px"></p><p>点击出现的媒体图标(就是你的iPhone),然后把ipa文件拖拽进去。<br>然后就等着下载好就行了。<br><img src="./4.png" style="width:500px"></p>]]></content>
     
     <summary type="html">
     
