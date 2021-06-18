@@ -45,9 +45,9 @@
     <link href="https://kisky3.github.io/2021/06/05/lesson2/"/>
     <id>https://kisky3.github.io/2021/06/05/lesson2/</id>
     <published>2021-06-05T13:06:40.000Z</published>
-    <updated>2021-06-14T16:43:31.760Z</updated>
+    <updated>2021-06-18T13:14:19.191Z</updated>
     
-    <content type="html"><![CDATA[<p>AWS 云从业者基础知识 学习笔记4 〜 6</p><a id="more"></a><h3 id="4-AWSのテクノロジー"><a href="#4-AWSのテクノロジー" class="headerlink" title="4. AWSのテクノロジー"></a>4. AWSのテクノロジー</h3>]]></content>
+    <content type="html"><![CDATA[<p>AWS 云从业者基础知识 学习笔记4 〜 6</p><a id="more"></a><h3 id="4-AWSのテクノロジー"><a href="#4-AWSのテクノロジー" class="headerlink" title="4. AWSのテクノロジー"></a>4. AWSのテクノロジー</h3><h4 id="4-1-AWSのサービス"><a href="#4-1-AWSのサービス" class="headerlink" title="4.1 AWSのサービス"></a>4.1 AWSのサービス</h4><p>AWSではリージョンと呼ばれる、世界のどこでサービスを使うかを選択するための地域と、リージョンと呼ばれる、世界のどこでサービスを使うかを選択するための地域と、リージョンにあるアベイラビリティゾーンという、データセンターの集合体があります。</p><h4 id="4-2-グローバルインフラストラクチャ"><a href="#4-2-グローバルインフラストラクチャ" class="headerlink" title="4.2 グローバルインフラストラクチャ"></a>4.2 グローバルインフラストラクチャ</h4>]]></content>
     
     <summary type="html">
     
