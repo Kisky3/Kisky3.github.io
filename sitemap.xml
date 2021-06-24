@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://kisky3.github.io/2021/06/24/AmplifyError/</loc>
+    
+    <lastmod>2021-06-24T14:44:34.032Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://kisky3.github.io/2021/06/22/leetcodememo/</loc>
     
-    <lastmod>2021-06-22T14:36:28.843Z</lastmod>
+    <lastmod>2021-06-22T14:41:13.457Z</lastmod>
     
   </url>
   
@@ -72,14 +79,14 @@
   </url>
   
   <url>
-    <loc>https://kisky3.github.io/all-categories/index.html</loc>
+    <loc>https://kisky3.github.io/all-tags/index.html</loc>
     
     <lastmod>2021-05-13T14:53:29.903Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://kisky3.github.io/all-tags/index.html</loc>
+    <loc>https://kisky3.github.io/all-categories/index.html</loc>
     
     <lastmod>2021-05-13T14:53:29.903Z</lastmod>
     

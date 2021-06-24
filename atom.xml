@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-06-22T14:36:28.843Z</updated>
+  <updated>2021-06-24T14:44:34.032Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -17,11 +17,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>AmplifyError</title>
+    <link href="https://kisky3.github.io/2021/06/24/AmplifyError/"/>
+    <id>https://kisky3.github.io/2021/06/24/AmplifyError/</id>
+    <published>2021-06-24T14:44:34.000Z</published>
+    <updated>2021-06-24T14:44:34.032Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>LeetCode Memo</title>
     <link href="https://kisky3.github.io/2021/06/22/leetcodememo/"/>
     <id>https://kisky3.github.io/2021/06/22/leetcodememo/</id>
     <published>2021-06-22T13:19:00.000Z</published>
-    <updated>2021-06-22T14:36:28.843Z</updated>
+    <updated>2021-06-22T14:41:13.457Z</updated>
     
     <content type="html"><![CDATA[<p>LeetCode笔记</p><a id="more"></a><p>刷LeetCode啊！！！</p><h3 id="1-二分法"><a href="#1-二分法" class="headerlink" title="1. 二分法"></a>1. 二分法</h3><p>二分法最常见的是取到中位数。并且不断地根据中位数更新起点和终点，缩小范围到取得理想值。</p><p>一般来说首先设置start为1，end为数组最大位</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> start = <span class="number">0</span>, <span class="keyword">const</span> end = array.length - <span class="number">1</span>(or something <span class="keyword">else</span>)</span><br></pre></td></tr></table></figure><p>然后取中点：</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> mid = <span class="built_in">Math</span>.floor(start + (end - start) / <span class="number">2</span>)</span><br></pre></td></tr></table></figure><p>通过while进行start和end的比较，直到start = end 然后结束处理。<br>进行中位数相关的条件判断, 将start或end重新代入。<br>最后在while结束循环的时候返回start。</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> (start &lt; end) &#123;</span><br><span class="line">      <span class="keyword">const</span> mid = <span class="built_in">Math</span>.floor(start + (end - start) / <span class="number">2</span>)</span><br><span class="line">      <span class="keyword">if</span> (进行中位数相关的条件判断) &#123;</span><br><span class="line">        start = mid + <span class="number">1</span></span><br><span class="line">      &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        end = mid</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> start</span><br></pre></td></tr></table></figure><h3 id="2-冒泡法"><a href="#2-冒泡法" class="headerlink" title="2.冒泡法"></a>2.冒泡法</h3><p>进行乱数数组排列的时候可以用冒泡法。(背下来～！)</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">arr = arr.sort(<span class="function">(<span class="params">a, b</span>) =&gt;</span> &#123;</span><br><span class="line"><span class="keyword">return</span> a - b</span><br><span class="line">&#125;);</span><br><span class="line"><span class="built_in">console</span>.log(arr);</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -463,26 +477,6 @@
       <category term="iOS" scheme="https://kisky3.github.io/tags/iOS/"/>
     
       <category term="IME" scheme="https://kisky3.github.io/tags/IME/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Git Error 「fatal cannot lock ref ...」</title>
-    <link href="https://kisky3.github.io/2020/08/05/giterrorfatal-cannotlockref/"/>
-    <id>https://kisky3.github.io/2020/08/05/giterrorfatal-cannotlockref/</id>
-    <published>2020-08-04T15:47:21.000Z</published>
-    <updated>2021-05-13T14:53:29.597Z</updated>
-    
-    <content type="html"><![CDATA[<p>Git Error: 「fatal: cannot lock ref …」</p><a id="more"></a><h3 id="Error详情："><a href="#Error详情：" class="headerlink" title="Error详情："></a>Error详情：</h3><p>在Git新建branch的时候出现了error,如果在别人创建的<code>project/feature_name</code>下面创建了<code>project/feature_name/add_hoge</code>branch的话会出现下面的error:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ git branch</span><br><span class="line">master</span><br><span class="line">* project/feature_name</span><br><span class="line"></span><br><span class="line">$ git checkout -b project/feature_name/add_hoge</span><br><span class="line">fatal: cannot lock ref &apos;project/feature_name/add_hoge&apos;:</span><br><span class="line">&apos;project/feature_name&apos; exists; cannot create &apos;project/feature_name/add_hoge&apos;</span><br></pre></td></tr></table></figure><hr><h3 id="Error原因："><a href="#Error原因：" class="headerlink" title="Error原因："></a>Error原因：</h3><p>如果在Git上试图创建<code>foo/bar</code>这样的分支的话,就会在<code>.git</code>路径的下面创建一个<code>foo</code>的路径。<br>而如果别人已经创建过<code>foo</code>分支的话说明<code>foo</code>路径已经存在,就会导致刚刚这样的错误。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git co -b hoge</span><br><span class="line">Switched to a new branch &apos;hoge&apos;</span><br><span class="line">$ git co -b hoge/fuga</span><br><span class="line">fatal: cannot lock ref &apos;refs/heads/hoge/fuga&apos;: &apos;refs/heads/hoge&apos; exists; cannot create &apos;refs/heads/hoge/fuga&apos;</span><br></pre></td></tr></table></figure><hr><h3 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h3><p>改变根分支的分支名:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">NG: project/feature_name</span><br><span class="line">OK: project/feature_name/top</span><br></pre></td></tr></table></figure><p>不使用<code>/</code>:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">例） project/feature_name_add_hoge</span><br><span class="line">例） project/feature_name--add_hoge</span><br><span class="line">例） project/feature_name__add_hoge</span><br></pre></td></tr></table></figure><p>或者干脆换一个不冲突的分支名就好了。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Git Error: 「fatal: cannot lock ref …」&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="git" scheme="https://kisky3.github.io/tags/git/"/>
     
   </entry>
   
