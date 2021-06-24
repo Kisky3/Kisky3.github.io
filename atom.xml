@@ -135,9 +135,9 @@
     <link href="https://kisky3.github.io/2021/03/24/AmplifyError/"/>
     <id>https://kisky3.github.io/2021/03/24/AmplifyError/</id>
     <published>2021-03-24T14:44:34.000Z</published>
-    <updated>2021-06-24T15:07:57.497Z</updated>
+    <updated>2021-06-24T15:09:36.267Z</updated>
     
-    <content type="html"><![CDATA[<p>AWS Amplify常见的坑</p><a id="more"></a><p>最近用Amplify踩了一些坑。在这里总结一下错误。</p><h3 id="1-GraphQLError-Request-failed-with-status-code-401"><a href="#1-GraphQLError-Request-failed-with-status-code-401" class="headerlink" title="1. GraphQLError: Request failed with status code 401"></a>1. GraphQLError: Request failed with status code 401</h3><p>Graphql的API返回401的时候很可能是你设置的API Key过期了。<br>你最初通过命令行默认设置的API的API Key期限是七天。</p><p>AWS AppSync -&gt; 設定 -&gt; 添加デフォルトの認証モードからAPI Key 然后在aws-exports.js 里更行aws_appsync_apiKey的値。</p>]]></content>
+    <content type="html"><![CDATA[<p>AWS Amplify常见的坑</p><a id="more"></a><p>最近用Amplify踩了一些坑。在这里总结一下错误。</p><h3 id="1-GraphQLError-Request-failed-with-status-code-401"><a href="#1-GraphQLError-Request-failed-with-status-code-401" class="headerlink" title="1. GraphQLError: Request failed with status code 401"></a>1. GraphQLError: Request failed with status code 401</h3><p>Graphql的API返回401的时候很可能是你设置的API Key过期了。<br>你最初通过命令行默认设置的API的API Key期限是七天。</p><p>AWS AppSync -&gt; 設定 -&gt; 添加デフォルトの認証モードからAPI Key 然后在aws-exports.js 里更行aws_appsync_apiKey的値。</p><p>最长可以设置一年的期限。<br>其实最好的是设置一个可用的IAM用户,但是我还没有摸索出来。(汗)</p>]]></content>
     
     <summary type="html">
     
