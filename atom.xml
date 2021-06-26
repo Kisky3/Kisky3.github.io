@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-06-22T14:41:13.457Z</updated>
+  <updated>2021-06-26T14:04:42.870Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AWS CLF Lesson7〜10 Memo</title>
+    <link href="https://kisky3.github.io/2021/06/26/lesson3/"/>
+    <id>https://kisky3.github.io/2021/06/26/lesson3/</id>
+    <published>2021-06-26T13:06:40.000Z</published>
+    <updated>2021-06-26T14:04:42.870Z</updated>
+    
+    <content type="html"><![CDATA[<p>AWS 云从业者基础知识 学习笔记7 〜 10</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;AWS 云从业者基础知识 学习笔记7 〜 10&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="aws" scheme="https://kisky3.github.io/tags/aws/"/>
+    
+      <category term="AWS Certified Cloud Practitioner" scheme="https://kisky3.github.io/tags/AWS-Certified-Cloud-Practitioner/"/>
+    
+  </entry>
   
   <entry>
     <title>LeetCode Memo</title>
@@ -65,7 +87,7 @@
     <link href="https://kisky3.github.io/2021/06/05/lesson2/"/>
     <id>https://kisky3.github.io/2021/06/05/lesson2/</id>
     <published>2021-06-05T13:06:40.000Z</published>
-    <updated>2021-06-26T04:43:50.553Z</updated>
+    <updated>2021-06-26T14:00:15.156Z</updated>
     
     <content type="html"><![CDATA[<p>AWS 云从业者基础知识 学习笔记4 〜 6</p><a id="more"></a><h3 id="4-AWSのテクノロジー"><a href="#4-AWSのテクノロジー" class="headerlink" title="4. AWSのテクノロジー"></a>4. AWSのテクノロジー</h3><h4 id="4-1-AWSのサービス"><a href="#4-1-AWSのサービス" class="headerlink" title="4.1 AWSのサービス"></a>4.1 AWSのサービス</h4><p>AWSではリージョンと呼ばれる、世界のどこでサービスを使うかを選択するための地域と、リージョンと呼ばれる、世界のどこでサービスを使うかを選択するための地域と、リージョンにあるアベイラビリティゾーンという、データセンターの集合体があります。</p><h4 id="4-2-グローバルインフラストラクチャ"><a href="#4-2-グローバルインフラストラクチャ" class="headerlink" title="4.2 グローバルインフラストラクチャ"></a>4.2 グローバルインフラストラクチャ</h4><p>全世界に展開されているリージョンを選択して、数分で世界中にシステムをデプロイできる。<br>リージョンによって利用できるサービス、コストが異なる。</p><p>リージョンにはアベイラビリティゾーンが2つ以上ある(ローカルリージョンを除く)<br>アベイラビリティゾーンは障害が同時に影響しないよう、地理的に十分に離れた場所にある。<br>同一リージョン内のアベイラビリティゾーン同士は高速なプライベート光ファイバーネットワーキングで接続されている。<br>複数のアベイラビリティゾーンを使うことで、耐障害性、可用性の高いアーキテクチャを実装できる。<br>データセンターは、セキュリティ、コンプライアンス上の様々な第三者監査検証を実施している。</p><p>リージョンとは違う場所に200以上のエッジロケーションがある。<br>エッジロケーションではAmazon Route 53とAmazon CloudFrontを利用できる。<br>ユーザーは最も低レイテンシーのエッジロケーションにアクセスできる。</p><p>Amazon Route53とAmazon CloudFrontはAWS SheildによりDDos攻撃から保護される。</p><h3 id="5-コンピューティングサービス"><a href="#5-コンピューティングサービス" class="headerlink" title="5.コンピューティングサービス"></a>5.コンピューティングサービス</h3><h4 id="5-1-EC2-Elastic-Compute-Cloud"><a href="#5-1-EC2-Elastic-Compute-Cloud" class="headerlink" title="5.1 EC2(Elastic Compute Cloud)"></a>5.1 EC2(Elastic Compute Cloud)</h4><p>使うときにだけEC2インスタンスを起動することができる。<br>必要なEC2インスタンスの数を事前に予測する必要はない。</p><p>使った文にだけ料金が発生する。<br>時間単位、秒単位で課金される。<br>アウト通信に転送料金が発生する。</p><p>インスタンスタイプは運用を開始した後に柔軟ぬ性能を変更できる。<br>運用を開始する前の、誤った性能予測の計算をする必要がなくなる。</p><p>数分でEC2を起動できることは、経営の俊敏性が増やすことに直結する。</p><p>数分でEC2を世界中にデプロイできる。</p><p>AMIから同じ構成のEC2インスタンスを何台でも起動できる。<br>AWS Marketplaceから簡単にソフトウェア構成済みのEC2インスタンスを起動できる。</p><p>EC2へのインスタンスのトラフィックはセキュリティグループのインパウンド(受信)で制御する。</p><p>オペレーティングシステムの管理者はキーペアで安全にログインできる。</p><p>数クリック、数分でEC2インスタンスを起動できる。</p><h4 id="5-2-ELB"><a href="#5-2-ELB" class="headerlink" title="5.2 ELB"></a>5.2 ELB</h4><p>EC2インスタンスの可用性を高めるためにELBを使用することができる。<br>HTTP \HTTPSではApplication Load Balancerを使い、それ以外のTCPではNetwork Load Balancerを使う。</p><p>ELBには、正常なインスタンスのみにトラフィックを送るためのヘルスチェック機能がある。</p><p>ELBはインターネット向けにも内部向けにも対応している。</p><p>インターネット向けだけではなく内部にもELBを挟むことによって、システムの可用性をさらに高めることができる。</p><p>ELB自体が高可用性のマネージドサービスなので単一障害点とはならない。</p><p>複数のアベイラビリティゾーンに負荷分散を実行できるのでリリースの負荷が均等になる。</p><p>Auto ScalingによってEC2インスタンスを必要なときに自動で増減できる。</p><p>Auto Scalingのメリットは、高可用性、耐障害性、コスト効率化。</p><p>垂直スケーリングよりも水平スケーリングの方がスケーラビリティを確保しやすい。</p><p>Auto Scalingでは起動設定(何を)、Auto Scalingグループ、スケーリングポリシーを設定する。</p><p>EC2のユーザーデーターを使うことでコマンドを自動実行し、デプロイ処理を自動化することができる。</p><p>EC2の情報(IPアドレスやインスタンスID)はタメデータから取得できる。</p><p>ELB、CloudWatch、Auto Scalingの3つのサービスで、自動敵でスケーラブルなアプリケーションを構築できる。</p><h4 id="5-4-Lambda"><a href="#5-4-Lambda" class="headerlink" title="5.4 Lambda"></a>5.4 Lambda</h4><p>サーバー構築や環境の準備をするをことなく、すぐに開発を始められる。</p><p>サーバーの運用から解放され、開発に注力できる。</p><p>Lmabdaを使うために新しい言語の勉強は不要。使い慣れた言語ですぐに始められる。</p><p>リクエストに応じて水平的にスケーリングして、並行で関数が実行される。</p><p>Auto Scalingを設定する必要がない。</p><p>メモリを割り当てることで他のリソースの性能も割り当てられる。</p><p>実行されている時間に対してミリ秒単位の無駄のない課金がなされる。</p><p>実行されていない待機時間には課金されない。</p><p>AWSサービスの処理を簡単に自動化できる。</p><p>AWSサービスからのトリガーを使用することで、イベントからLambdaを実行できる。</p><h3 id="6-ストレージサービス"><a href="#6-ストレージサービス" class="headerlink" title="6.　ストレージサービス"></a>6.　ストレージサービス</h3><h4 id="EBS-Amazon-Amazon-Elastic-Block-Store"><a href="#EBS-Amazon-Amazon-Elastic-Block-Store" class="headerlink" title="EBS (Amazon Amazon Elastic Block Store)"></a>EBS (Amazon Amazon Elastic Block Store)</h4><p>EBSはAmazon Amazon Elastic Block Storeの略です、EC2インスタンスにアタッチして使用するブロックストレージボリュームです。<br>必要な時に必要な量を利用できる。<br>使い始めた後にオンラインでボリュームタイプを変更できる。<br>使い始めた後にオンラインでストレージ容量を増やすことができる。</p><p>スナップショットはS3の機能を使って保存される。(高い耐久性)。</p><p>EBSの暗号化に対して追加の操作は必要ない。</p><p>EBSのデータは永続的、インスタンスストアは一時的。</p><h4 id="S3-Amazon-Simple-Storage"><a href="#S3-Amazon-Simple-Storage" class="headerlink" title="S3(Amazon Simple Storage)"></a>S3(Amazon Simple Storage)</h4><p>Amazon Simple Storage Serviceの略です。<br>S3のオブジェクト容量は無制限。<br>ストレージ容量の確保/調達を気にすることなく開発に専念できる。</p><p>S3の耐久性はイレブンナイン(99.9999999%)。</p><p>冗長化やバックアップを意識することなく開発に専念できる。<br>S3は世界中のどこからでもアクセスできる。</p><p>S3バケット、オブジェクトはデフォルトでプライベート。<br>アクセスコントロールリストで簡単にアクセス権を設定できる。<br>バケットポリシーでより詳細にアクセス権を設定できる。<br>EC2などのAWSリソースにS3へのアクセス権を設定する際はIAMロールを使用する。<br>HTTPSでアクセスできる。<br>保存データの暗号化は複数の方法から選択できる。</p><p>ストレージ料金はストレージクラスによりコスト効率を高めることができる。<br>ライフサイクルポリシーによりストレージクラスの変更を自動化できる。<br>リージョンの外へのアウト通信のみデータ転送料金が発生する。</p>]]></content>
     
@@ -459,34 +481,6 @@
     
     
       <category term="Vue" scheme="https://kisky3.github.io/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vue iOS IME Input Probleam</title>
-    <link href="https://kisky3.github.io/2020/08/14/VueInputIMEProbleam/"/>
-    <id>https://kisky3.github.io/2020/08/14/VueInputIMEProbleam/</id>
-    <published>2020-08-14T14:16:05.000Z</published>
-    <updated>2021-05-13T14:53:29.380Z</updated>
-    
-    <content type="html"><![CDATA[<p>Vue Input 在iOS下的IME日语输入问题</p><a id="more"></a><h2 id="1-重复值的输入"><a href="#1-重复值的输入" class="headerlink" title="1.重复值的输入"></a>1.重复值的输入</h2><p>Vue的Input在网页输入时没啥问题 但是在iPhone的Sarari输入时会有输入值的重复输入</p><h5 id="理由"><a href="#理由" class="headerlink" title="理由"></a>理由</h5><p>重复输入的情况是因为使用了@input,导致数字还在输入过程中事件被触发导致多重重复输入。</p><h5 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h5><p>这个用@change,等到数字输入完毕之后再执行一次处理就可以了。</p><p>##2.日语输入时第一次输入时无法触发@change事件(input的type为number)</p><p>第一次输入日语的时候,default为null, 无论@change还是@input都无法将日语存储到state里。<br>如果需要监视输入值进行相关处理(Validation)之类的话,会出现bug。<br>但是奇怪的是一旦输入过一次数字之后,就不存在这个问题了。</p><h5 id="理由-1"><a href="#理由-1" class="headerlink" title="理由"></a>理由</h5><p>如果你用日语输入法IME输入日文的时候,vue的data是当作null处理的,而如果default是null的话,<br>则相当于没变化,@change事件是不被触发的。<br>但是数字的话是填入数字,相当于data被激活了,@change之后就是能够运行的。</p><h5 id="解决方法-1"><a href="#解决方法-1" class="headerlink" title="解决方法"></a>解决方法</h5><p>1.使用Element: compositionend Event</p><blockquote><p>compositionend イベントは、 IME などのテキスト編集システムが現在の編集セッションを完了またはキャンセルした時に発生します。</p></blockquote><p>也就是当你使用IME输入法的时候,输入时或者输入完成的时候这个事件将被触发。<br>所以可以考虑和@change一起配套使用。</p><img src="./1.gif" style="width: 300px"><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span></span></span><br><span class="line"><span class="tag">  <span class="attr">type</span>=<span class="string">"number"</span></span></span><br><span class="line"><span class="tag">  <span class="attr">:value</span>=<span class="string">"item"</span></span></span><br><span class="line"><span class="tag">  @<span class="attr">change</span>=<span class="string">"createItem"</span></span></span><br><span class="line"><span class="tag">  @<span class="attr">compositionend</span>=<span class="string">"createItem"</span></span></span><br><span class="line"><span class="tag">  <span class="attr">name</span>=<span class="string">"item"</span></span></span><br><span class="line"><span class="tag">/&gt;</span></span><br></pre></td></tr></table></figure><p>2.不要使用input[type=”number”]</p><p>如果使用<code>number</code>的话键盘的上下键可以触发数字的大小变动,而且不能自动识别iPhone和Android的数字键盘。<br>可以考虑使用下面的方法,type依然为text,但是<code>inputmode=&quot;numeric&quot;</code>.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=&quot;text&quot; inputmode=&quot;numeric&quot; pattern=&quot;\d*&quot;&gt;</span><br></pre></td></tr></table></figure><p>这样不仅保证日语输入时候触发@change事件,并且能在使用iPhone和Android的时候自动打开数字键盘。<br><img src="./2.jpg" style="width: 500px"><br>而且不需要同时使用@change和@compositionend两个事件,用户体验也是比较好的。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Vue Input 在iOS下的IME日语输入问题&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Front-end Knowledge" scheme="https://kisky3.github.io/categories/Front-end-Knowledge/"/>
-    
-    
-      <category term="Vue" scheme="https://kisky3.github.io/tags/Vue/"/>
-    
-      <category term="Input" scheme="https://kisky3.github.io/tags/Input/"/>
-    
-      <category term="iOS" scheme="https://kisky3.github.io/tags/iOS/"/>
-    
-      <category term="IME" scheme="https://kisky3.github.io/tags/IME/"/>
     
   </entry>
   
