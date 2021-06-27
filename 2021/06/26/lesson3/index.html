@@ -17,7 +17,7 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png"},"articleBody":"AWS 云从业者基础知识 学习笔记7 〜 10\n\n7.1 VPC (Amazon Virtual Private Cloud)VPCは隔離されたプライベートなネットワーク構成をお客様がコントロールできるサービス。\nVPCはリージョンを選択して作成。CIDRでVPCのプライベートIPアドレスの範囲を定義。\nインターネットゲートウェイはVPCとパブリックインターネットを接続。インターネットゲートウェイ自体が高可用性と冗長性を持っている。\nルートテーブルはサブネットと関連付ける。サブネット内のリソースがどこに接続できるかを定義する。\nサブネットは役割で分割する。外部インターネットに接続できるのがパブリックサブネット。外部インターネットに接続せず外部アクセスからリソースを保護できるのがプライベートサブネット。\nセキュリティグループは、インスタンスに対してのトラフィックを制御する仮想ファイアウォール。許可するインバウンドのポートと送信元を設定するボワイトリスト。送信元には、CIDRか他のセキュリティグループIDを指定できる。\nネットワークACLは、サブネットに対してのトラフィックを制御する仮想ファイアウォール。拒否するインバウンドのポートと送信元を設定するブラックリスト。必要がなければ設定しない追加のセキュリティレイヤー。\n","dateCreated":"2021-06-26T22:06:40+09:00","dateModified":"2021-06-27T13:10:30+09:00","datePublished":"2021-06-26T22:06:40+09:00","description":"AWS 云从业者基础知识 学习笔记7 〜 10","headline":"AWS CLF Lesson7〜10 Memo","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"https://kisky3.github.io/2021/06/26/lesson3/"},"publisher":{"@type":"Organization","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png","logo":{"@type":"ImageObject","url":"me.png"}},"url":"https://kisky3.github.io/2021/06/26/lesson3/","keywords":"aws, AWS Certified Cloud Practitioner"}</script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png"},"articleBody":"AWS 云从业者基础知识 学习笔记7 〜 10\n\n7.1 VPC (Amazon Virtual Private Cloud)VPCは隔離されたプライベートなネットワーク構成をお客様がコントロールできるサービス。\nVPCはリージョンを選択して作成。CIDRでVPCのプライベートIPアドレスの範囲を定義。\nインターネットゲートウェイはVPCとパブリックインターネットを接続。インターネットゲートウェイ自体が高可用性と冗長性を持っている。\nルートテーブルはサブネットと関連付ける。サブネット内のリソースがどこに接続できるかを定義する。\nサブネットは役割で分割する。外部インターネットに接続できるのがパブリックサブネット。外部インターネットに接続せず外部アクセスからリソースを保護できるのがプライベートサブネット。\nセキュリティグループは、インスタンスに対してのトラフィックを制御する仮想ファイアウォール。許可するインバウンドのポートと送信元を設定するボワイトリスト。送信元には、CIDRか他のセキュリティグループIDを指定できる。\nネットワークACLは、サブネットに対してのトラフィックを制御する仮想ファイアウォール。拒否するインバウンドのポートと送信元を設定するブラックリスト。必要がなければ設定しない追加のセキュリティレイヤー。\n外部からEC2インスタンスにアクセスするための重要なポイント\n\nインターネットゲートウェイをVPCにアタッチする。\nインターネットゲートウェイへの経路を持つルートテーブルをサブネットに関連付ける。\nEC2インスタンスをそのサブネット内で起動する。\nEC2インスタンスにパブリックIPアドレスを有効にする(またはEC2のパブリックIPアドレスを固定するElastic IPをアタッチする)\n\n","dateCreated":"2021-06-26T22:06:40+09:00","dateModified":"2021-06-27T13:20:25+09:00","datePublished":"2021-06-26T22:06:40+09:00","description":"AWS 云从业者基础知识 学习笔记7 〜 10","headline":"AWS CLF Lesson7〜10 Memo","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"https://kisky3.github.io/2021/06/26/lesson3/"},"publisher":{"@type":"Organization","name":"Xiang Yu","sameAs":["https://github.com/Kisky3","/categories/About-Me","kisky3@126.com"],"image":"me.png","logo":{"@type":"ImageObject","url":"me.png"}},"url":"https://kisky3.github.io/2021/06/26/lesson3/","keywords":"aws, AWS Certified Cloud Practitioner"}</script>
     <meta name="description" content="AWS 云从业者基础知识 学习笔记7 〜 10">
 <meta name="keywords" content="aws,AWS Certified Cloud Practitioner">
 <meta property="og:type" content="blog">
@@ -26,7 +26,7 @@
 <meta property="og:site_name" content="向宇的博客 | Xiang Yu&#39;s Blog">
 <meta property="og:description" content="AWS 云从业者基础知识 学习笔记7 〜 10">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2021-06-27T04:10:30.509Z">
+<meta property="og:updated_time" content="2021-06-27T04:20:25.572Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="AWS CLF Lesson7〜10 Memo">
 <meta name="twitter:description" content="AWS 云从业者基础知识 学习笔记7 〜 10">
@@ -261,6 +261,13 @@
 <p>サブネットは役割で分割する。<br>外部インターネットに接続できるのがパブリックサブネット。<br>外部インターネットに接続せず外部アクセスからリソースを保護できるのがプライベートサブネット。</p>
 <p>セキュリティグループは、インスタンスに対してのトラフィックを制御する仮想ファイアウォール。<br>許可するインバウンドのポートと送信元を設定するボワイトリスト。<br>送信元には、CIDRか他のセキュリティグループIDを指定できる。</p>
 <p>ネットワークACLは、サブネットに対してのトラフィックを制御する仮想ファイアウォール。<br>拒否するインバウンドのポートと送信元を設定するブラックリスト。<br>必要がなければ設定しない追加のセキュリティレイヤー。</p>
+<p>外部からEC2インスタンスにアクセスするための重要なポイント</p>
+<ul>
+<li>インターネットゲートウェイをVPCにアタッチする。</li>
+<li>インターネットゲートウェイへの経路を持つルートテーブルをサブネットに関連付ける。</li>
+<li>EC2インスタンスをそのサブネット内で起動する。</li>
+<li>EC2インスタンスにパブリックIPアドレスを有効にする(またはEC2のパブリックIPアドレスを固定するElastic IPをアタッチする)</li>
+</ul>
 
             
 
