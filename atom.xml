@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-06-27T04:01:58.692Z</updated>
+  <updated>2021-06-27T04:06:53.781Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://kisky3.github.io/2021/06/26/lesson3/"/>
     <id>https://kisky3.github.io/2021/06/26/lesson3/</id>
     <published>2021-06-26T13:06:40.000Z</published>
-    <updated>2021-06-27T04:01:58.692Z</updated>
+    <updated>2021-06-27T04:06:53.781Z</updated>
     
-    <content type="html"><![CDATA[<p>AWS 云从业者基础知识 学习笔记7 〜 10</p><a id="more"></a><h3 id="7-1-VPC-Amazon-Virtual-Private-Cloud"><a href="#7-1-VPC-Amazon-Virtual-Private-Cloud" class="headerlink" title="7.1 VPC (Amazon Virtual Private Cloud)"></a>7.1 VPC (Amazon Virtual Private Cloud)</h3><p>VPCは隔離されたプライベートなネットワーク構成をお客様がコントロールできるサービス。</p><p>VPCはリージョンを選択して作成。<br>CIDRでVPCのプライベートIPアドレスの範囲を定義。</p><p>インターネットゲートウェイはVPCとパブリックインターネットを接続。<br>インターネットゲートウェイ自体が高可用性と冗長性を持っている。</p><p>ルートテーブルはサブネットと関連付ける。<br>サブネット内のリソースがどこに接続できるかを定義する。</p><p>サブネットは役割で分割する。<br>外部インターネットに接続できるのがパブリックサブネット。<br>外部インターネットに接続せず外部アクセスからリソースを保護できるのがプライベートサブネット。</p>]]></content>
+    <content type="html"><![CDATA[<p>AWS 云从业者基础知识 学习笔记7 〜 10</p><a id="more"></a><h3 id="7-1-VPC-Amazon-Virtual-Private-Cloud"><a href="#7-1-VPC-Amazon-Virtual-Private-Cloud" class="headerlink" title="7.1 VPC (Amazon Virtual Private Cloud)"></a>7.1 VPC (Amazon Virtual Private Cloud)</h3><p>VPCは隔離されたプライベートなネットワーク構成をお客様がコントロールできるサービス。</p><p>VPCはリージョンを選択して作成。<br>CIDRでVPCのプライベートIPアドレスの範囲を定義。</p><p>インターネットゲートウェイはVPCとパブリックインターネットを接続。<br>インターネットゲートウェイ自体が高可用性と冗長性を持っている。</p><p>ルートテーブルはサブネットと関連付ける。<br>サブネット内のリソースがどこに接続できるかを定義する。</p><p>サブネットは役割で分割する。<br>外部インターネットに接続できるのがパブリックサブネット。<br>外部インターネットに接続せず外部アクセスからリソースを保護できるのがプライベートサブネット。</p><p>セキュリティグループは、インスタンスに対してのトラフィックを制御する仮想ファイアウォール。<br>許可するインバウンドのポートと送信元を設定するボワイトリスト。<br>送信元には、CIDRか他のセキュリティグループIDを指定できる。</p>]]></content>
     
     <summary type="html">
     
