@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-07-02T13:40:13.685Z</updated>
+  <updated>2021-07-02T14:22:38.045Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -21,15 +21,16 @@
     <link href="https://kisky3.github.io/2021/07/02/createAPIwithLambdaGo/"/>
     <id>https://kisky3.github.io/2021/07/02/createAPIwithLambdaGo/</id>
     <published>2021-07-02T13:25:00.000Z</published>
-    <updated>2021-07-02T13:40:13.685Z</updated>
+    <updated>2021-07-02T14:22:38.045Z</updated>
     
-    <content type="html"><![CDATA[<p>用Go、Gin 和 Lambda来造一个slack机器人</p>]]></content>
+    <content type="html"><![CDATA[<p>用Go、Gin 和 Lambda来造一个slack机器人</p><h3 id="想做的事"><a href="#想做的事" class="headerlink" title="想做的事"></a>想做的事</h3><p>1.利用go</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;用Go、Gin 和 Lambda来造一个slack机器人&lt;/p&gt;
+&lt;h3 id=&quot;想做的事&quot;&gt;&lt;a href=&quot;#想做的事&quot; class=&quot;headerlink&quot; title=&quot;想做的事&quot;&gt;&lt;/a&gt;想做的事&lt;/h3&gt;&lt;p&gt;1.利用go&lt;/p&gt;
 
       
     
