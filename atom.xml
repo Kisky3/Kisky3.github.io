@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-06-29T14:45:28.079Z</updated>
+  <updated>2021-07-02T13:25:00.578Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>createAPIwithLambdaGo</title>
+    <link href="https://kisky3.github.io/2021/07/02/createAPIwithLambdaGo/"/>
+    <id>https://kisky3.github.io/2021/07/02/createAPIwithLambdaGo/</id>
+    <published>2021-07-02T13:25:00.000Z</published>
+    <updated>2021-07-02T13:25:00.578Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>AWS CLF Lesson7〜10 Memo</title>
@@ -459,28 +473,6 @@
       <category term="Input" scheme="https://kisky3.github.io/tags/Input/"/>
     
       <category term="iOS" scheme="https://kisky3.github.io/tags/iOS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vue TypeError:「Cannot read property ..... of undefined&quot;」</title>
-    <link href="https://kisky3.github.io/2020/09/12/VueUndefinedError/"/>
-    <id>https://kisky3.github.io/2020/09/12/VueUndefinedError/</id>
-    <published>2020-09-12T14:36:05.000Z</published>
-    <updated>2021-05-13T14:53:29.388Z</updated>
-    
-    <content type="html"><![CDATA[<p>Vue类型错误：无法阅读未定义属性</p><a id="more"></a><p>当我想取得<em>data[index][“hoge”]</em>这样当数据的时候，vue出现了一下当报错。<br>(但是在console里打出来看看又发现是可以取到数据的)</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Cannot read property &apos;hoge&apos; of undefined</span><br></pre></td></tr></table></figure><p>理由是因为data[index]为undefined的时候无法取得下一级的元素，<br>在vue上加上一个v-if条件就可以了。</p><p>例子：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">v-if</span>=<span class="string">"data[index]"</span>&gt;</span>&#123;&#123;data[index]["hoge"]&#125;&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Vue类型错误：无法阅读未定义属性&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Front-end Knowledge" scheme="https://kisky3.github.io/categories/Front-end-Knowledge/"/>
-    
-    
-      <category term="Vue" scheme="https://kisky3.github.io/tags/Vue/"/>
     
   </entry>
   
