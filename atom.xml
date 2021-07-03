@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-07-03T15:02:27.543Z</updated>
+  <updated>2021-07-03T15:06:08.166Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://kisky3.github.io/2021/07/03/AWSMemo/"/>
     <id>https://kisky3.github.io/2021/07/03/AWSMemo/</id>
     <published>2021-07-03T14:52:49.000Z</published>
-    <updated>2021-07-03T15:02:27.543Z</updated>
+    <updated>2021-07-03T15:06:08.166Z</updated>
     
-    <content type="html"><![CDATA[<p>AWS 云从业者基础知识 学习笔记汇总</p><a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<p>AWS 云从业者基础知识 学习笔记汇总</p><a id="more"></a><h3 id="セキュリティ"><a href="#セキュリティ" class="headerlink" title="セキュリティ"></a>セキュリティ</h3><h4 id="IAM-Identity-and-Access-Management"><a href="#IAM-Identity-and-Access-Management" class="headerlink" title="IAM (Identity and Access Management)"></a>IAM (Identity and Access Management)</h4><p>⇒ユーザーのAWSリソースへのアクセス管理サービス（権限設定）<br>・IAMユーザを作っての運用が推奨</p><h3 id="セキュリティグループ"><a href="#セキュリティグループ" class="headerlink" title="セキュリティグループ"></a>セキュリティグループ</h3><p>⇒インスタンスに対して設定する(トラフィックを制御する)仮想ファイアウォール<br>・オンプレ(1LANに1ファイアウォール)とは違い、各インスタンスごとに設定できる<br>・許可するインバウンドのポートと送信元を設定するホワイトリスト<br>・送信元には、CIDRか他のセキュリティグループを指定</p>]]></content>
     
     <summary type="html">
     
