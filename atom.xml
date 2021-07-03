@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-07-02T14:54:44.429Z</updated>
+  <updated>2021-07-03T14:52:49.247Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -17,11 +17,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>AWSMemo</title>
+    <link href="https://kisky3.github.io/2021/07/03/AWSMemo/"/>
+    <id>https://kisky3.github.io/2021/07/03/AWSMemo/</id>
+    <published>2021-07-03T14:52:49.000Z</published>
+    <updated>2021-07-03T14:52:49.247Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Create a slack bot with Go、Gin and Lambda</title>
     <link href="https://kisky3.github.io/2021/07/02/createAPIwithLambdaGo/"/>
     <id>https://kisky3.github.io/2021/07/02/createAPIwithLambdaGo/</id>
     <published>2021-07-02T13:25:00.000Z</published>
-    <updated>2021-07-02T14:54:44.429Z</updated>
+    <updated>2021-07-03T14:51:52.780Z</updated>
     
     <content type="html"><![CDATA[<p>用Go、Gin 和 Lambda来造一个slack机器人</p><h3 id="想做的事"><a href="#想做的事" class="headerlink" title="想做的事"></a>想做的事</h3><p>1.利用go写一点东西<br>2.使用一点框架(gin)<br>3.使用Lambda和api gateway<br>4.使用sam来进行deploy<br>5.连接slack bot</p><h3 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h3><p>Mac一台</p><h3 id="从hello-world开始"><a href="#从hello-world开始" class="headerlink" title="从hello world开始"></a>从hello world开始</h3>]]></content>
     
@@ -467,30 +481,6 @@
       <category term="AWS" scheme="https://kisky3.github.io/tags/AWS/"/>
     
       <category term="Lambda" scheme="https://kisky3.github.io/tags/Lambda/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>iOS Input Input Expansion Probleam</title>
-    <link href="https://kisky3.github.io/2020/09/14/iOSInputExpansion/"/>
-    <id>https://kisky3.github.io/2020/09/14/iOSInputExpansion/</id>
-    <published>2020-09-14T14:16:05.000Z</published>
-    <updated>2021-05-13T14:53:29.626Z</updated>
-    
-    <content type="html"><![CDATA[<p>iOS下输入时画面的放大问题</p><a id="more"></a><h2 id="解决方法1-禁止页面缩放"><a href="#解决方法1-禁止页面缩放" class="headerlink" title="解决方法1: 禁止页面缩放"></a>解决方法1: 禁止页面缩放</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width,</span></span></span><br><span class="line"><span class="tag"><span class="string">initial-scale=1.0, maximum-scale=1.0, user-scalable=no"</span>&gt;</span></span><br><span class="line">   <span class="comment">&lt;!-- initial-scale     - 初始的缩放比例</span></span><br><span class="line"><span class="comment">   minimum-scale     - 允许用户缩放到的最小比例</span></span><br><span class="line"><span class="comment">   maximum-scale     - 允许用户缩放到的最大比例</span></span><br><span class="line"><span class="comment">   user-scalable     - 用户是否可以手动缩放 --&gt;</span></span><br></pre></td></tr></table></figure><p>但是这样会限制用户的手动放大。</p><hr><h2 id="解决方法2-input输入框中的字体不能小于16px"><a href="#解决方法2-input输入框中的字体不能小于16px" class="headerlink" title="解决方法2: input输入框中的字体不能小于16px"></a>解决方法2: input输入框中的字体不能小于16px</h2><p>例子：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">input</span><span class="selector-attr">[type=text]</span> &#123;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">16px</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">scale</span>(0.8);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><hr><h2 id="解决方法3-调整行高"><a href="#解决方法3-调整行高" class="headerlink" title="解决方法3: 调整行高"></a>解决方法3: 调整行高</h2><p>调整input框的行高与字体font-size的行高，一般是<em>input框的行高&gt;=字体font-size的行高</em></p><hr><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://blog.csdn.net/weixin_40890907/article/details/82378873?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2.control" target="_blank" rel="noopener">ios中点击input输入框光标变大，页面放大问题</a></p><p><a href="https://qiita.com/skwbr/items/b285cc312587c73a4812" target="_blank" rel="noopener">iOSでinputのフォーカス時に画面がズームするのを防ぐ</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;iOS下输入时画面的放大问题&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Front-end Knowledge" scheme="https://kisky3.github.io/categories/Front-end-Knowledge/"/>
-    
-    
-      <category term="Input" scheme="https://kisky3.github.io/tags/Input/"/>
-    
-      <category term="iOS" scheme="https://kisky3.github.io/tags/iOS/"/>
     
   </entry>
   
