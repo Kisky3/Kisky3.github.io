@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-07-03T14:59:40.769Z</updated>
+  <updated>2021-07-03T14:52:49.247Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -15,20 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>AWSMemo</title>
-    <link href="https://kisky3.github.io/2021/07/03/AWSMemo-1/"/>
-    <id>https://kisky3.github.io/2021/07/03/AWSMemo-1/</id>
-    <published>2021-07-03T14:59:40.000Z</published>
-    <updated>2021-07-03T14:59:40.769Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>AWSMemo</title>
@@ -471,6 +457,30 @@
       <category term="Vue" scheme="https://kisky3.github.io/tags/Vue/"/>
     
       <category term="Typescript" scheme="https://kisky3.github.io/tags/Typescript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AWS Lambda Dynamodb Access Error AccessDeniedException</title>
+    <link href="https://kisky3.github.io/2020/09/15/AWSLambdaAccessError/"/>
+    <id>https://kisky3.github.io/2020/09/15/AWSLambdaAccessError/</id>
+    <published>2020-09-15T14:55:41.000Z</published>
+    <updated>2021-06-24T14:54:33.510Z</updated>
+    
+    <content type="html"><![CDATA[<p>AWS Lambda和Dynamodb连接时的错误 AccessDeniedException</p><a id="more"></a><p>当想在lambda里通过特定条件读取Dynamodb里的数据时，发生了以下的错误</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">2017-04-03T12:11:12.144Z    ******  Unable to delete item. Error JSON:</span><br><span class="line">&#123;</span><br><span class="line">    &quot;message&quot;: &quot;User: arn:aws:sts::******:assumed-role/******/****** is not authorized to perform: dynamodb:DeleteItem on resource: arn:aws:dynamodb:us-east-1:******:table/******&quot;,</span><br><span class="line">    &quot;code&quot;: &quot;AccessDeniedException&quot;,</span><br><span class="line">    &quot;time&quot;: &quot;2017-04-03T12:11:12.131Z&quot;,</span><br><span class="line">    &quot;requestId&quot;: &quot;******&quot;,</span><br><span class="line">    &quot;statusCode&quot;: 400,</span><br><span class="line">    &quot;retryable&quot;: false,</span><br><span class="line">    &quot;retryDelay&quot;: 0</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h3><p>lambda的policy里、添加可以允许Dynamodb连接的权限。</p><p>首先确认lambda的policy：<br><img src="./1.png" style="width: 500px"></p><hr><p>然后添加policy<br><img src="./2.png" style="width: 500px"></p><hr><p>这时候ARN这个修饰名是需要的，可以从dynamodb的overview里看到。<br><img src="./3.png" style="width: 500px"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;AWS Lambda和Dynamodb连接时的错误 AccessDeniedException&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Front-end Knowledge" scheme="https://kisky3.github.io/categories/Front-end-Knowledge/"/>
+    
+    
+      <category term="AWS" scheme="https://kisky3.github.io/tags/AWS/"/>
+    
+      <category term="Lambda" scheme="https://kisky3.github.io/tags/Lambda/"/>
     
   </entry>
   
