@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-07-03T14:52:49.247Z</updated>
+  <updated>2021-07-03T15:02:27.543Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -17,16 +17,24 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>AWSMemo</title>
+    <title>AWS Memo</title>
     <link href="https://kisky3.github.io/2021/07/03/AWSMemo/"/>
     <id>https://kisky3.github.io/2021/07/03/AWSMemo/</id>
     <published>2021-07-03T14:52:49.000Z</published>
-    <updated>2021-07-03T14:52:49.247Z</updated>
+    <updated>2021-07-03T15:02:27.543Z</updated>
+    
+    <content type="html"><![CDATA[<p>AWS 云从业者基础知识 学习笔记汇总</p><a id="more"></a>]]></content>
     
     <summary type="html">
     
+      &lt;p&gt;AWS 云从业者基础知识 学习笔记汇总&lt;/p&gt;
+    
     </summary>
     
+    
+      <category term="aws" scheme="https://kisky3.github.io/tags/aws/"/>
+    
+      <category term="AWS Certified Cloud Practitioner" scheme="https://kisky3.github.io/tags/AWS-Certified-Cloud-Practitioner/"/>
     
   </entry>
   
