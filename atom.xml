@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-07-06T12:08:47.086Z</updated>
+  <updated>2021-07-06T12:09:41.298Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://kisky3.github.io/2021/07/03/AWSMemo/"/>
     <id>https://kisky3.github.io/2021/07/03/AWSMemo/</id>
     <published>2021-07-03T14:52:49.000Z</published>
-    <updated>2021-07-06T12:08:47.086Z</updated>
+    <updated>2021-07-06T12:09:41.298Z</updated>
     
-    <content type="html"><![CDATA[<p>AWS 云从业者基础知识 学习笔记汇总</p><a id="more"></a><h4 id="セキュリティ"><a href="#セキュリティ" class="headerlink" title="セキュリティ"></a>セキュリティ</h4><h5 id="IAM-Identity-and-Access-Management"><a href="#IAM-Identity-and-Access-Management" class="headerlink" title="IAM (Identity and Access Management)"></a>IAM (Identity and Access Management)</h5><p>⇒ユーザーのAWSリソースへのアクセス管理サービス（権限設定）<br>・IAMユーザを作っての運用が推奨</p><h5 id="セキュリティグループ"><a href="#セキュリティグループ" class="headerlink" title="セキュリティグループ"></a>セキュリティグループ</h5><p>⇒インスタンスに対して設定する(トラフィックを制御する)仮想ファイアウォール<br>・オンプレ(1LANに1ファイアウォール)とは違い、各インスタンスごとに設定できる<br>・許可するインバウンドのポートと送信元を設定するホワイトリスト<br>・送信元には、CIDRか他のセキュリティグループを指定</p><p>★CIDR (Classless Inter-Domain Routing)<br>⇒IPアドレスの範囲を定義する（10.0.0.0/16など）</p><h5 id="ネットワークACL-Access-Control-List"><a href="#ネットワークACL-Access-Control-List" class="headerlink" title="ネットワークACL (Access Control List)"></a>ネットワークACL (Access Control List)</h5>]]></content>
+    <content type="html"><![CDATA[<p>AWS 云从业者基础知识 学习笔记汇总</p><a id="more"></a><h4 id="セキュリティ"><a href="#セキュリティ" class="headerlink" title="セキュリティ"></a>セキュリティ</h4><h5 id="IAM-Identity-and-Access-Management"><a href="#IAM-Identity-and-Access-Management" class="headerlink" title="IAM (Identity and Access Management)"></a>IAM (Identity and Access Management)</h5><p>⇒ユーザーのAWSリソースへのアクセス管理サービス（権限設定）<br>・IAMユーザを作っての運用が推奨</p><h5 id="セキュリティグループ"><a href="#セキュリティグループ" class="headerlink" title="セキュリティグループ"></a>セキュリティグループ</h5><p>⇒インスタンスに対して設定する(トラフィックを制御する)仮想ファイアウォール<br>・オンプレ(1LANに1ファイアウォール)とは違い、各インスタンスごとに設定できる<br>・許可するインバウンドのポートと送信元を設定するホワイトリスト<br>・送信元には、CIDRか他のセキュリティグループを指定</p><p>★CIDR (Classless Inter-Domain Routing)<br>⇒IPアドレスの範囲を定義する（10.0.0.0/16など）</p><h5 id="ネットワークACL-Access-Control-List"><a href="#ネットワークACL-Access-Control-List" class="headerlink" title="ネットワークACL (Access Control List)"></a>ネットワークACL (Access Control List)</h5><p>⇒サブネットに対して設定する仮想ファイアウォール<br>・拒否するインバウンドのポートと送信元を設定するブラックリスト<br>・必要がなければ設定しない追加のセキュリティレイヤー</p><h5 id="AWS-Shield"><a href="#AWS-Shield" class="headerlink" title="AWS Shield"></a>AWS Shield</h5>]]></content>
     
     <summary type="html">
     
