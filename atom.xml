@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kisky3.github.io/"/>
-  <updated>2021-07-06T12:05:25.967Z</updated>
+  <updated>2021-07-06T12:07:08.604Z</updated>
   <id>https://kisky3.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://kisky3.github.io/2021/07/03/AWSMemo/"/>
     <id>https://kisky3.github.io/2021/07/03/AWSMemo/</id>
     <published>2021-07-03T14:52:49.000Z</published>
-    <updated>2021-07-06T12:05:25.967Z</updated>
+    <updated>2021-07-06T12:07:08.604Z</updated>
     
-    <content type="html"><![CDATA[<p>AWS 云从业者基础知识 学习笔记汇总</p><a id="more"></a><h4 id="セキュリティ"><a href="#セキュリティ" class="headerlink" title="セキュリティ"></a>セキュリティ</h4><h5 id="IAM-Identity-and-Access-Management"><a href="#IAM-Identity-and-Access-Management" class="headerlink" title="IAM (Identity and Access Management)"></a>IAM (Identity and Access Management)</h5><p>⇒ユーザーのAWSリソースへのアクセス管理サービス（権限設定）<br>・IAMユーザを作っての運用が推奨</p>]]></content>
+    <content type="html"><![CDATA[<p>AWS 云从业者基础知识 学习笔记汇总</p><a id="more"></a><h4 id="セキュリティ"><a href="#セキュリティ" class="headerlink" title="セキュリティ"></a>セキュリティ</h4><h5 id="IAM-Identity-and-Access-Management"><a href="#IAM-Identity-and-Access-Management" class="headerlink" title="IAM (Identity and Access Management)"></a>IAM (Identity and Access Management)</h5><p>⇒ユーザーのAWSリソースへのアクセス管理サービス（権限設定）<br>・IAMユーザを作っての運用が推奨</p><h5 id="セキュリティグループ"><a href="#セキュリティグループ" class="headerlink" title="セキュリティグループ"></a>セキュリティグループ</h5><p>⇒インスタンスに対して設定する(トラフィックを制御する)仮想ファイアウォール<br>・オンプレ(1LANに1ファイアウォール)とは違い、各インスタンスごとに設定できる<br>・許可するインバウンドのポートと送信元を設定するホワイトリスト<br>・送信元には、CIDRか他のセキュリティグループを指定</p>]]></content>
     
     <summary type="html">
     
